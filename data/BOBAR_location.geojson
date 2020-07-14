@@ -1175,7 +1175,7 @@ var geodata = {
        "coordinates":  [ -122.08219,37.67351 ]
     },
     "properties": {
-    "Name":"PLāYT",
+    "Name":"PL&atildeYT",
     "Address":"1036 B St, Hayward, CA 94541",
     "Phone":"(510) 888-1092",
     "Website":"http://playtonb.com/",
@@ -4445,7 +4445,7 @@ var geodata = {
        "coordinates":  [ -122.275468,37.801854 ]
     },
     "properties": {
-    "Name":"Yammy's Café & Deli",
+    "Name":"Yammy's Caf&eacute & Deli",
     "Address":"542 9th St, Oakland, CA 94607",
     "Phone":"(510) 250-9756",
     "Website":"https://www.yammysethiopiancafe.com",
@@ -5407,7 +5407,7 @@ var geodata = {
        "coordinates":  [ -122.246575,37.810422 ]
     },
     "properties": {
-    "Name":"Caña Cuban Parlor & Cafe",
+    "Name":"Ca&ntildea Cuban Parlor & Cafe",
     "Address":"530 Lake Park Ave, Oakland, CA 94610",
     "Phone":"(510) 832-1515",
     "Website":"https://www.canaoakland.com",
@@ -7590,7 +7590,7 @@ var geodata = {
        "coordinates":  [ -122.118137,37.890485 ]
     },
     "properties": {
-    "Name":"Réve Bistro",
+    "Name":"R&ecircve Bistro",
     "Address":"960 Moraga Rd F, Lafayette, CA 94549",
     "Phone":"(925) 385-793",
     "Website":"http://revebistro.com/",

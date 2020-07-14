@@ -17,8 +17,8 @@
         var map = L.map('map').setView([37.78261, -122.1368495], 9);
         L.tileLayer('http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg', { attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'}).addTo(map);
 
-        // Creating popup: Yelp
-        function createPopup(feature, layer) {
+        // Creating popup
+        function createPopupContent(feature) {
             let popupContent = '';
             if (feature.properties.Website) {
                 popupContent += '<h3><a href="' + feature.properties.Website + '" target="_blank">' + feature.properties.Name + '</a></h3>';
@@ -45,13 +45,63 @@
             if (feature.properties.Yelp) {
                 popupContent += '<br><b>Reviews: </b><a href="' + feature.properties.Yelp + '" target="_blank">Yelp</a>'
             }
-            layer.bindPopup(popupContent);
+            return popupContent;
+        }
+
+        // Changing icon color multiple: black, african: orange, caribbean: green, american: red, southern: gold, barbecue: yellow, dessert: violet, beverages: blue, other: grey
+        var GeneralIcon = L.Icon.extend({
+            options: { 
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34]
+            }
+        })
+
+        var blackIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png'});
+        var orangeIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png'});
+        var redIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png'});
+        var greenIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png'});
+        var goldIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png'});
+        var yellowIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png'});
+        var violetIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png'});
+        var blueIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png'});
+        var greyIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-grey.png'});
+
+        function getIcon(feature) {
+            if (feature.properties.Multiple) {
+                return blackIcon;
+            } else if (feature.properties.African) {
+                return orangeIcon;
+            } else if (feature.properties.Caribbean) {
+                return greenIcon;
+            } else if (feature.properties.American) {
+                return goldIcon;
+            } else if (feature.properties.Barbecue) {
+                return yellowIcon;
+            } else if (feature.properties.Dessert) {
+                return violetIcon;
+            } else if (feature.properties.Beverages) {
+                return blueIcon;
+            } else if (feature.properties.Southern) {
+                return redIcon;
+            } else {
+                return greyIcon
+            }
+        }
+
+        function pointToLayer(feature, latlng) {
+            return L.marker(latlng, {icon: getIcon(feature)});
+        };
+
+        function onEachFeature(feature, layer) {
+            layer.bindPopup(createPopupContent(feature));
         }
 
         // Adding data
         var data = [geodata];       
         L.geoJSON(data, {
-            onEachFeature: createPopup
+            pointToLayer: pointToLayer,
+            onEachFeature: onEachFeature
         }).addTo(map);
 
     </script>
