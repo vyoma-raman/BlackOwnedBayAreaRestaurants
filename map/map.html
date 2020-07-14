@@ -17,9 +17,43 @@
         var map = L.map('map').setView([37.78261, -122.1368495], 9);
         L.tileLayer('http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg', { attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'}).addTo(map);
 
+        // Creating popup: Yelp
+        function createPopup(feature, layer) {
+            let popupContent = '';
+            if (feature.properties.Website) {
+                popupContent += '<h3><a href="' + feature.properties.Website + '" target="_blank">' + feature.properties.Name + '</a></h3>';
+            } else {
+                popupContent += '<h3>' + feature.properties.Name + '</h3>';
+            }
+            popupContent += "<b>Address: </b>" + feature.properties.Address;
+            if (feature.properties.Phone) {
+                popupContent += "<br><b>Phone Number: </b>" + feature.properties.Phone;
+            }
+            popupContent += "<br><b>Cuisine: </b>" + feature.properties.Cuisine + "<br><b>COVID-19 Service: </b>" + feature.properties.Service;
+            if (feature.properties.IG || feature.properties.FB) {
+                popupContent += "<br><b>Social Media: </b>";
+                if (feature.properties.FB) {
+                    popupContent += '<a href="' + feature.properties.FB + '" target="_blank">Facebook</a>';
+                }
+                if (feature.properties.FB && feature.properties.IG) {
+                    popupContent += ","
+                }
+                if (feature.properties.IG) {
+                    popupContent += ' <a href="' + feature.properties.IG + '" target="_blank">Instagram</a>';
+                }
+            }
+            if (feature.properties.Yelp) {
+                popupContent += '<br><b>Reviews: </b><a href="' + feature.properties.Yelp + '" target="_blank">Yelp</a>'
+            }
+            layer.bindPopup(popupContent);
+        }
+
         // Adding data
         var data = [geodata];       
-        L.geoJSON(data).addTo(map);
+        L.geoJSON(data, {
+            onEachFeature: createPopup
+        }).addTo(map);
+
     </script>
 </body>
 </html>
