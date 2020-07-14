@@ -3,6 +3,7 @@
 <head>
     <title>Black-Owned Bay Area Restaurants</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
     <script src="../data/BOBAR_location.geojson"></script>
     <style>
@@ -103,6 +104,27 @@
             pointToLayer: pointToLayer,
             onEachFeature: onEachFeature
         }).addTo(map);
+
+        // Creating legend
+        var legend = L.control({ position: "bottomright" });
+
+        legend.onAdd = function(map) {
+          var div = L.DomUtil.create("div", "legend");
+          div.innerHTML += "<h4>Cuisine Type</h4>";
+          div.innerHTML += '<i style="background: #CB8427"></i><span>African</span><br>';
+          div.innerHTML += '<i style="background: #2AAD27"></i><span>Caribbean</span><br>';
+          div.innerHTML += '<i style="background: #CB2B3E"></i><span>Southern</span><br>';
+          div.innerHTML += '<i style="background: #CAC428"></i><span>Barbecue</span><br>';
+          div.innerHTML += '<i style="background: #FFD326"></i><span>Other American</span><br>';     
+          div.innerHTML += '<i style="background: #9C2BCB"></i><span>Dessert</span><br>';     
+          div.innerHTML += '<i style="background: #2A81CB"></i><span>Beverages</span><br>';     
+          div.innerHTML += '<i style="background: #7B7B7B"></i><span>Other</span><br>';     
+          div.innerHTML += '<i style="background: #3D3D3D"></i><span>Multiple</span><br>';      
+
+          return div;
+        };
+
+        legend.addTo(map);
 
     </script>
 </body>
