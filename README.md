@@ -1,1 +1,1 @@
-# BlackOwnedBayAreaRestaurants
+# Black-Owned Bay Area Restaurants
