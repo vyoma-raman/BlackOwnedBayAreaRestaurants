@@ -1,4 +1,4 @@
-# Black-Owned Bay Area Restaurants
+# [Black-Owned Bay Area Restaurants](https://vyoma-raman.github.io/BlackOwnedBayAreaRestaurants/)
 ### Data Source
 [Directory](https://docs.google.com/spreadsheets/d/1mTthE5lwqVnTCIm3iQtQXLyxwK-pc17cuCp--BhAYX8/edit#gid=0) of Black-owned Bay Area restaurants, pop-ups and caterers compiled by San Francisco Chronicle restaurant critic [Soleil Ho](https://twitter.com/hooleil).<br /><br />
 *Notes:*
