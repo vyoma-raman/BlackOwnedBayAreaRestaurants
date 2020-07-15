@@ -4,7 +4,7 @@
 *Notes:*
 - Only showing the businesses whose locations could be identified
 - Supplemented with business address, Facebook link, and Yelp link for businesses for whom they could be identified
-- If any data is incorrect, please let me know at*vyoma.raman@berkeley.edu*! Thank you for your help
+- If any data is incorrect, please let me know at *vyoma.raman@berkeley.edu*! Thank you for your help
 
 ### Other Sources
 *Data:*
