@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
     <link rel="stylesheet" href="style/style.css">
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
-    <script src="data/BOBAR_location.geojson"></script>
+    <script src="data/BOBAR_location2.geojson"></script>
     <style>
         #map {position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
     </style>
@@ -49,7 +49,7 @@
             return popupContent;
         }
 
-        // Changing icon color multiple: black, african: orange, caribbean: green, american: red, southern: gold, barbecue: yellow, dessert: violet, beverages: blue, other: grey
+        // Changing icon color
         var GeneralIcon = L.Icon.extend({
             options: { 
                 iconSize: [25, 41],
@@ -90,12 +90,74 @@
             }
         }
 
+        // Creating LayerGroups
+
+        var regions = {"East Bay": new L.LayerGroup(), "South Bay": new L.LayerGroup(), "San Francisco": new L.LayerGroup(), "North Bay": new L.LayerGroup(), "Peninsula": new L.LayerGroup()}
+
+        var cuisines = {"African": new L.LayerGroup(), "Caribbean": new L.LayerGroup(), "American": new L.LayerGroup(), "Southern": new L.LayerGroup(), "Barbecue": new L.LayerGroup(), "Dessert": new L.LayerGroup(), "Beverages": new L.LayerGroup(), "Other": new L.LayerGroup()};
+
+        var services = {"Takeout": new L.LayerGroup(), "Delivery": new L.LayerGroup(), "Catering": new L.LayerGroup(), "Temporarily Closed": new L.LayerGroup(), "Other": new L.LayerGroup()};
+
+        function createRegionGroups(feature, layer) {
+            regions[feature.properties.Region].addLayer(layer);
+        }
+
+        function createCuisineGroups(feature, layer) {
+            if (feature.properties.African) {
+                cuisines["African"].addLayer(layer);
+            }
+            if (feature.properties.Caribbean) {
+                cuisines["Caribbean"].addLayer(layer);
+            }
+            if (feature.properties.American) {
+                cuisines["American"].addLayer(layer);
+            }
+            if (feature.properties.Southern) {
+                cuisines["Southern"].addLayer(layer);
+            }
+            if (feature.properties.Barbecue) {
+                cuisines["Barbecue"].addLayer(layer);
+            }
+            if (feature.properties.Dessert) {
+                cuisines["Dessert"].addLayer(layer);
+            }
+            if (feature.properties.Beverages) {
+                cuisines["Beverages"].addLayer(layer);
+            }
+            if (feature.properties.OtherCuisine) {
+                cuisines["Other"].addLayer(layer);
+            }
+        }
+
+        function createServiceGroups(feature, layer) {
+            if (feature.properties.Takeout) {
+                services["Takeout"].addLayer(layer);
+            }
+            if (feature.properties.Delivery) {
+                services["Delivery"].addLayer(layer);
+            }
+            if (feature.properties.Catering) {
+                services["Catering"].addLayer(layer);
+            }
+            if (feature.properties.Temporarily_Closed) {
+                services["Temporarily Closed"].addLayer(layer);
+            }
+            if (feature.properties.OtherService) {
+                services["Other"].addLayer(layer);
+            }
+        }
+
+        // Essential functions
+
         function pointToLayer(feature, latlng) {
             return L.marker(latlng, {icon: getIcon(feature)});
-        };
+        }
 
         function onEachFeature(feature, layer) {
             layer.bindPopup(createPopupContent(feature));
+            createRegionGroups(feature, layer);
+            createCuisineGroups(feature, layer);
+            createServiceGroups(feature, layer);
         }
 
         // Adding data
@@ -104,6 +166,8 @@
             pointToLayer: pointToLayer,
             onEachFeature: onEachFeature
         }).addTo(map);
+
+        //L.control.layers(null, regions, cuisines, services).addTo(map);
 
         // Creating legend
         var legend = L.control({ position: "bottomright" });
