@@ -1,4 +1,5 @@
 # [Black-Owned Bay Area Restaurants](https://vyoma-raman.github.io/BlackOwnedBayAreaRestaurants/)
+![image of working map](style/full_map.jpg)
 ### Data Source
 [Directory](https://docs.google.com/spreadsheets/d/1mTthE5lwqVnTCIm3iQtQXLyxwK-pc17cuCp--BhAYX8/edit#gid=0) of Black-owned Bay Area restaurants, pop-ups and caterers compiled by San Francisco Chronicle restaurant critic [Soleil Ho](https://twitter.com/hooleil).<br /><br />
 *Notes:*
@@ -14,3 +15,7 @@
 *Code:*
 - Colored markers: [pointhi](https://github.com/pointhi/leaflet-color-markers) on Github
 - Legend: [@haakseth](https://codepen.io/haakseth/pen/KQbjdO) on CodePen
+
+### To Do
+Filtering restaurants by region of the Bay, cuisine, and service type.<br /><br />
+The existing layers control is not ideal for this map's purposes, and I have not been able to find a package that is. Therefore, this project is on hiatus as-is until I am able to implement one myself.
