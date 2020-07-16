@@ -1,7 +1,7 @@
 # [Black-Owned Bay Area Restaurants](https://vyoma-raman.github.io/BlackOwnedBayAreaRestaurants/)
 ![image of working map](style/full_map.jpg)
 ### Data Source
-[Directory](https://docs.google.com/spreadsheets/d/1mTthE5lwqVnTCIm3iQtQXLyxwK-pc17cuCp--BhAYX8/edit#gid=0) of Black-owned Bay Area restaurants, pop-ups and caterers compiled by San Francisco Chronicle restaurant critic [Soleil Ho](https://twitter.com/hooleil).<br /><br />
+[Directory](https://docs.google.com/spreadsheets/d/1mTthE5lwqVnTCIm3iQtQXLyxwK-pc17cuCp--BhAYX8/edit#gid=0) of Black-owned Bay Area restaurants, pop-ups and caterers compiled by San Francisco Chronicle restaurant critic [Soleil Ho](https://twitter.com/hooleil) and maintained alongside [Tracey Friley](https://www.instagram.com/bestfoodinoakland/), Jen Y., Sophi H., Rose E. and others.<br /><br />
 *Notes:*
 - Only showing the businesses whose locations could be identified
 - Supplemented with business address, Facebook link, and Yelp link for businesses for whom they could be identified
