@@ -11,6 +11,7 @@
 *Data:*
 - Addresses: Google; Yelp; Facebook
 - Latitude and longitude: [https://getlatlong.net/](https://getlatlong.net/); [https://www.latlong.net](https://www.latlong.net/convert-address-to-lat-long.html); [Google Maps](https://www.google.com/maps)
+- Converted CSV file of data to GeoJSON using [online converter](https://www.convertcsv.com/csv-to-geojson.htm)
 
 *Code:*
 - Colored markers: [pointhi](https://github.com/pointhi/leaflet-color-markers) on Github
