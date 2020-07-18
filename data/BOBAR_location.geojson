@@ -30,7 +30,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -63,7 +63,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -96,7 +96,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -129,8 +129,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://app.yiftee.com/gifts/egift_and_gift_cards/backayard-caribbean-american-grill-san-jose"
     }
   },
   {
@@ -162,8 +163,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://app.yiftee.com/gifts/egift_and_gift_cards/backayard-caribbean-american-grill-san-jose"
     }
   },
   {
@@ -195,7 +197,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -228,7 +230,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -261,7 +263,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -294,7 +296,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -308,9 +310,9 @@ var geodata = {
     "Name":"Kategna Ethiopian",
     "Address":"1663 W San Carlos St, San Jose, CA 95128",
     "Phone":"(408) 216-9695",
-    "Website":"www.kategna.com/",
+    "Website":"https://www.kategna.com/",
     "Yelp":"https://www.yelp.com/biz/kategna-ethiopian-restaurant-san-jose",
-    "IG":"https://www.instagram.com/kategnarestaurant",
+    "IG":"https://www.instagram.com/kategnarestaurant/",
     "FB":"https://www.facebook.com/kategna/",
     "City":"San Jose",
     "Region":"South Bay",
@@ -327,7 +329,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -341,7 +343,7 @@ var geodata = {
     "Name":"Mudai",
     "Address":"503 W San Carlos St, San Jose, CA 95126",
     "Phone":"(408) 292-2282",
-    "Website":"www.mudaiethiopiansanjose.com",
+    "Website":"https://www.mudaiethiopiansanjose.com",
     "Yelp":"https://www.yelp.com/biz/mudai-ethiopian-restaurant-san-jose",
     "IG":"https://z-p42.www.instagram.com/mudaiethiopiansj/",
     "FB":"https://www.facebook.com/mudaiethiopian/",
@@ -360,7 +362,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -376,7 +378,7 @@ var geodata = {
     "Phone":"(408) 294-8626",
     "Website":"backayard.net",
     "Yelp":"https://www.yelp.com/biz/back-a-yard-san-jose",
-    "IG":"https://www.instagram.com/backayardgrill",
+    "IG":"https://www.instagram.com/backayardgrill/",
     "FB":"https://www.facebook.com/pages/category/Caribbean-Restaurant/Back-A-Yard-249345095218904/",
     "City":"San Jose",
     "Region":"South Bay",
@@ -393,8 +395,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://app.yiftee.com/gifts/egift_and_gift_cards/backayard-caribbean-american-grill-san-jose"
     }
   },
   {
@@ -407,9 +410,9 @@ var geodata = {
     "Name":"Jackie's Place",
     "Address":"655 N 6th St, San Jose, CA 95112",
     "Phone":"(408) 490-4653",
-    "Website":"www.jackiecaters.com/",
+    "Website":"https://www.jackiecaters.com/",
     "Yelp":"https://www.yelp.com/biz/jackies-place-san-jose",
-    "IG":"https://www.instagram.com/jackiesplacesj",
+    "IG":"https://www.instagram.com/jackiesplacesj/",
     "FB":"https://www.facebook.com/JackiesPlaceSJ/",
     "City":"San Jose",
     "Region":"South Bay",
@@ -426,7 +429,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -459,8 +462,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://app.yiftee.com/gifts/egift_and_gift_cards/backayard-caribbean-american-grill-san-jose"
     }
   },
   {
@@ -492,7 +496,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -525,7 +529,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -539,7 +543,7 @@ var geodata = {
     "Name":"Coconuts Caribbean",
     "Address":"642 Ramona St, Palo Alto, CA 94301",
     "Phone":"(650) 329-9533",
-    "Website":"www.coconutspaloalto.com/",
+    "Website":"https://www.coconutspaloalto.com/",
     "Yelp":"https://www.yelp.com/biz/coconuts-caribbean-restaurant-and-bar-palo-alto",
     "IG":"https://www.instagram.com/coconutspaloalto",
     "FB":"https://www.facebook.com/coconutscaribbean/",
@@ -558,8 +562,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://app.yiftee.com/gifts/egift_and_gift_cards/coconuts-palo-alto-palo-alto"
     }
   },
   {
@@ -591,7 +596,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -624,8 +629,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://app.yiftee.com/gifts/egift_and_gift_cards/backayard-caribbean-american-grill-san-jose"
     }
   },
   {
@@ -657,7 +663,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -690,7 +696,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -723,7 +729,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -756,7 +762,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -770,7 +776,7 @@ var geodata = {
     "Name":"Hippies Brew",
     "Address":"3900 Smith St, Union City, CA 94587",
     "Phone":"(510) 461-8629",
-    "Website":"www.hippiesbrew.com/",
+    "Website":"https://www.hippiesbrew.com/",
     "Yelp":"https://www.yelp.com/biz/hippies-brew-union-city-2",
     "IG":"https://www.instagram.com/hippiesbrew",
     "FB":"https://www.facebook.com/HippiesBrew/",
@@ -789,7 +795,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -803,7 +809,7 @@ var geodata = {
     "Name":"Pure Juice & Smoothie Lounge",
     "Address":"3902 Smith St, Union City, CA 94586",
     "Phone":"(510) 400-9033",
-    "Website":"www.purejuiceandsmoothie.com/",
+    "Website":"https://www.purejuiceandsmoothie.com/",
     "Yelp":"https://www.yelp.com/biz/pure-juice-and-smoothie-lounge-union-city",
     "IG":"https://www.instagram.com/purejuicelounge",
     "FB":"https://www.facebook.com/purejuiceandsmoothielounge",
@@ -822,8 +828,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://squareup.com/gift/D49JZ0RBYFNT1/order"
     }
   },
   {
@@ -836,7 +843,7 @@ var geodata = {
     "Name":"Birdhaus Beer Garden",
     "Address":"3821 Smith St, Union City, CA 94587",
     "Phone":"",
-    "Website":"www.birdhausbeergarden.com",
+    "Website":"https://www.birdhausbeergarden.com",
     "Yelp":"https://www.yelp.com/biz/birdhaus-beer-garden-union-city-3",
     "IG":"https://www.instagram.com/birdhausbeergarden",
     "FB":"https://www.facebook.com/BirdhausBeerGarden/",
@@ -855,7 +862,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -869,7 +876,7 @@ var geodata = {
     "Name":"Pop's Deli & Grill",
     "Address":"30982 Huntwood Ave, Hayward, CA 94544",
     "Phone":"(510) 471-1502",
-    "Website":"www.popsdeliandgrill.com",
+    "Website":"https://www.popsdeliandgrill.com",
     "Yelp":"https://www.yelp.com/biz/pops-deli-and-grill-hayward",
     "IG":"",
     "FB":"https://www.facebook.com/popsdeliandgrill/",
@@ -888,7 +895,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -921,7 +928,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -954,7 +961,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -968,7 +975,7 @@ var geodata = {
     "Name":"Shampa's Pies",
     "Address":"1625 Palmetto Ave, Pacifica, CA 94044",
     "Phone":"(415) 412-3592",
-    "Website":"www.shampaspies.com/",
+    "Website":"https://www.shampaspies.com/",
     "Yelp":"https://www.yelp.com/biz/shampas-pies-pacifica",
     "IG":"https://www.instagram.com/shampas_pies",
     "FB":"https://www.facebook.com/shampaspies/",
@@ -987,7 +994,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1020,7 +1027,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1053,7 +1060,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1086,7 +1093,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1119,7 +1126,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1133,7 +1140,7 @@ var geodata = {
     "Name":"Hippies Brew",
     "Address":"888 C St, Hayward, CA 94541",
     "Phone":"(510) 461-8629",
-    "Website":"www.hippiesbrew.com/",
+    "Website":"https://www.hippiesbrew.com/",
     "Yelp":"https://www.yelp.com/biz/hippies-brew-express-hayward-2",
     "IG":"https://www.instagram.com/hippiesbrew",
     "FB":"https://www.facebook.com/HippiesBrew/",
@@ -1152,7 +1159,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1185,7 +1192,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1199,7 +1206,7 @@ var geodata = {
     "Name":"Reuschelle's Cheesecakes",
     "Address":"974 A St, Hayward, CA 94541",
     "Phone":"(510) 219-2997",
-    "Website":"www.reuschelles.com/",
+    "Website":"https://www.reuschelles.com/",
     "Yelp":"https://www.yelp.com/biz/reuschelles-cheesecakes-hayward-3",
     "IG":"https://www.instagram.com/reuschelles",
     "FB":"https://www.facebook.com/Reuschelles/",
@@ -1218,7 +1225,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1251,7 +1258,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1265,7 +1272,7 @@ var geodata = {
     "Name":"Keith's Chicken and Waffles",
     "Address":"270 San Pedro Rd, Daly City, CA 94014",
     "Phone":"(415) 347-7208",
-    "Website":"www.keithschickennwaffles.com",
+    "Website":"https://www.keithschickennwaffles.com",
     "Yelp":"https://www.yelp.com/biz/keiths-chicken-n-waffles-daly-city",
     "IG":"https://www.instagram.com/keithschickenandwaffles",
     "FB":"https://www.facebook.com/Keithschickenandwaffles/",
@@ -1284,7 +1291,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1298,7 +1305,7 @@ var geodata = {
     "Name":"Red's House",
     "Address":"25 Washington St, Daly City, CA 94014",
     "Phone":"(415) 562-7538",
-    "Website":"www.eatreds.com",
+    "Website":"https://www.eatreds.com",
     "Yelp":"https://www.yelp.com/biz/reds-house-sf-daly-city-2",
     "IG":"https://www.instagram.com/redshousesf",
     "FB":"",
@@ -1317,7 +1324,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1331,7 +1338,7 @@ var geodata = {
     "Name":"Andreamarie Cakes",
     "Address":"16395 E 14th St, San Leandro, CA 94578",
     "Phone":"(925) 255-6438",
-    "Website":"www.andreamariecakes.com",
+    "Website":"https://www.andreamariecakes.com",
     "Yelp":"https://www.yelp.com/biz/andreamarie-custom-cakes-and-treats-san-leandro",
     "IG":"https://www.instagram.com/andreamariecakes19",
     "FB":"https://www.facebook.com/andreamariecakes/",
@@ -1350,7 +1357,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1364,7 +1371,7 @@ var geodata = {
     "Name":"I Am Cafe",
     "Address":"16395 E 14th St C, San Leandro, CA 94578",
     "Phone":"(510) 747-8662",
-    "Website":"www.iamashland.com/",
+    "Website":"https://www.iamashland.com/",
     "Yelp":"https://www.yelp.com/biz/i-am-cafe-san-leandro-3",
     "IG":"https://www.instagram.com/iamcafe_ashland",
     "FB":"https://www.facebook.com/iamcafeashland/",
@@ -1383,7 +1390,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1397,7 +1404,7 @@ var geodata = {
     "Name":"Theo’s CheeseSteak Shop",
     "Address":"15696 E 14th St, San Leandro, CA 94578",
     "Phone":"(510) 674-9224",
-    "Website":"www.theoscheesesteak.com/",
+    "Website":"https://www.theoscheesesteak.com/",
     "Yelp":"https://www.yelp.com/biz/theos-cheesesteak-shop-san-leandro-2",
     "IG":"https://www.instagram.com/explore/locations/1622012/theos-cheesesteak-shop",
     "FB":"https://www.facebook.com/Theos-Cheesesteak-Shop-111445962255659/?rf=443542916094642",
@@ -1416,7 +1423,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1430,7 +1437,7 @@ var geodata = {
     "Name":"Pinx Catering",
     "Address":"1933 Davis St, San Leandro, CA 94577",
     "Phone":"(855) 984-7469",
-    "Website":"www.pinxcatering.com/",
+    "Website":"https://www.pinxcatering.com/",
     "Yelp":"https://www.yelp.com/biz/pinx-san-leandro-2",
     "IG":"https://www.instagram.com/pinxcatering",
     "FB":"https://www.facebook.com/pages/category/Caterer/Pinx-Catering-162204197184127/",
@@ -1449,7 +1456,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1482,7 +1489,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1496,7 +1503,7 @@ var geodata = {
     "Name":"Excelsior Coffee",
     "Address":"4495 Mission St, San Francisco, CA 94112",
     "Phone":"(415) 347-7333",
-    "Website":"www.xlcrsf.com",
+    "Website":"https://www.xlcrsf.com",
     "Yelp":"https://www.yelp.com/biz/excelsior-coffee-san-francisco",
     "IG":"https://www.instagram.com/excelsiorcoffeesf",
     "FB":"https://www.facebook.com/excelsiorcoffeesf/",
@@ -1515,8 +1522,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://www.xlcrsf.com/store-1/virtual-gift-card"
     }
   },
   {
@@ -1548,7 +1556,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -1562,7 +1570,7 @@ var geodata = {
     "Name":"Scends",
     "Address":"635 E 14th St, San Leandro, CA 94577",
     "Phone":"(510) 567-3955",
-    "Website":"www.scendsrestaurant.com/",
+    "Website":"https://www.scendsrestaurant.com/",
     "Yelp":"https://www.yelp.com/biz/scends-restaurant-san-leandro-2",
     "IG":"",
     "FB":"https://www.facebook.com/pages/category/Chicken-Joint/Scends-Restaurant-114157538608447/",
@@ -1581,7 +1589,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1614,7 +1622,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1647,7 +1655,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -1661,7 +1669,7 @@ var geodata = {
     "Name":"Yvonne's Southern Sweets",
     "Address":"5128 3rd St, San Francisco, CA 94124",
     "Phone":"(415) 368-7900",
-    "Website":"www.yvonnessouthernsweets.com/",
+    "Website":"https://www.yvonnessouthernsweets.com/",
     "Yelp":"https://www.yelp.com/biz/yvonnes-southern-sweets-san-francisco",
     "IG":"https://www.instagram.com/yvonnessouthernsweets",
     "FB":"https://www.facebook.com/pages/category/Bakery/Yvonnes-Southern-Sweets-167149399971664/",
@@ -1680,7 +1688,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1713,7 +1721,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1727,7 +1735,7 @@ var geodata = {
     "Name":"Radio Africa Kitchen",
     "Address":"4800 3rd St, San Francisco, CA 94124",
     "Phone":"(415) 420-2486",
-    "Website":"www.radioafricakitchen.com",
+    "Website":"https://www.radioafricakitchen.com",
     "Yelp":"https://www.yelp.com/biz/radio-africa-kitchen-san-francisco",
     "IG":"https://www.instagram.com/radioafricakitchen",
     "FB":"https://www.facebook.com/pages/category/Ethiopian-Restaurant/Radio-Africa-Kitchen-214817898543835/",
@@ -1746,7 +1754,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1779,7 +1787,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -1812,7 +1820,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1845,7 +1853,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1878,7 +1886,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1892,7 +1900,7 @@ var geodata = {
     "Name":"Camisha's Cakes",
     "Address":"255 Mendell St, San Francisco, CA 94124",
     "Phone":"(415) 289-9898",
-    "Website":"www.camishascakes.com/",
+    "Website":"https://www.camishascakes.com/",
     "Yelp":"https://www.yelp.com/biz/camishas-cakes-san-francisco",
     "IG":"https://www.instagram.com/camishascakes",
     "FB":"https://www.facebook.com/camishascakes/",
@@ -1911,7 +1919,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1925,7 +1933,7 @@ var geodata = {
     "Name":"Dixon's",
     "Address":"8999 International Blvd, Oakland, CA 94621",
     "Phone":"(510) 567-3222",
-    "Website":"www.yelp.com/biz/dixons-oakland-3",
+    "Website":"https://www.yelp.com/biz/dixons-oakland-3",
     "Yelp":"https://www.yelp.com/biz/dixons-oakland-3",
     "IG":"https://www.instagram.com/dixonsrestaurant_",
     "FB":"",
@@ -1944,7 +1952,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1977,7 +1985,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -1991,7 +1999,7 @@ var geodata = {
     "Name":"Teranga",
     "Address":"2948 Folsom St, San Francisco, CA 94110",
     "Phone":"(415) 879-8372",
-    "Website":"www.terangajuice.com/",
+    "Website":"https://www.terangajuice.com/",
     "Yelp":"https://www.yelp.com/biz/teranga-baobab-san-francisco",
     "IG":"https://www.instagram.com/terangalife",
     "FB":"https://www.facebook.com/terangalife/",
@@ -2010,7 +2018,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2043,7 +2051,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2057,7 +2065,7 @@ var geodata = {
     "Name":"Roderick’s BBQ",
     "Address":"2708 98th Ave, Oakland, CA 94605",
     "Phone":"(510) 564-4648",
-    "Website":"www.rodericksfoodtruck.com/",
+    "Website":"https://www.rodericksfoodtruck.com/",
     "Yelp":"https://www.yelp.com/biz/rodericks-restaurant-and-mobile-catering-oakland",
     "IG":"https://www.instagram.com/rodericksbbq",
     "FB":"https://www.facebook.com/Rodericksbbq/",
@@ -2076,7 +2084,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2109,7 +2117,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2142,7 +2150,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2156,7 +2164,7 @@ var geodata = {
     "Name":"MexiQ",
     "Address":"90th Ave, Oakland, CA 94603",
     "Phone":"(510) 701-3239",
-    "Website":"www.mexiqnow.com/",
+    "Website":"https://www.mexiqnow.com/",
     "Yelp":"https://www.yelp.com/biz/mexiq-oakland",
     "IG":"https://www.instagram.com/eastoaklandsmoke",
     "FB":"",
@@ -2175,7 +2183,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2189,7 +2197,7 @@ var geodata = {
     "Name":"Gourmonade",
     "Address":"899 Valencia St, San Francisco, CA 94110",
     "Phone":"(415) 967-2411",
-    "Website":"www.gourmonade.com/",
+    "Website":"https://www.gourmonade.com/",
     "Yelp":"https://www.yelp.com/biz/gourmonade-san-francisco",
     "IG":"https://www.instagram.com/gourmonade",
     "FB":"https://www.facebook.com/gourmonade/",
@@ -2208,7 +2216,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2241,7 +2249,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2255,7 +2263,7 @@ var geodata = {
     "Name":"Ungrafted",
     "Address":"2419 3rd St, San Francisco, CA 94107",
     "Phone":"(415) 814-2129",
-    "Website":"www.ungraftedsf.com",
+    "Website":"https://www.ungraftedsf.com",
     "Yelp":"https://www.yelp.com/biz/ungrafted-san-francisco-2",
     "IG":"https://www.instagram.com/ungrafted_sf",
     "FB":"https://www.facebook.com/ungraftedsf/",
@@ -2274,8 +2282,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://www.toasttab.com/ungrafted/GiftCard"
     }
   },
   {
@@ -2288,7 +2297,7 @@ var geodata = {
     "Name":"Little Baobab",
     "Address":"3386 19th St, San Francisco, CA 94110",
     "Phone":"(415) 826-9287",
-    "Website":"www.bissapbaobab.com/",
+    "Website":"https://www.bissapbaobab.com/",
     "Yelp":"https://www.yelp.com/biz/little-baobab-san-francisco-5",
     "IG":"https://www.instagram.com/bissapbaobab",
     "FB":"https://www.facebook.com/BissapBaobabVillage/",
@@ -2307,7 +2316,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2340,7 +2349,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2373,7 +2382,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2406,7 +2415,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2439,7 +2448,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":"Y"
     }
   },
@@ -2472,7 +2481,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2486,7 +2495,7 @@ var geodata = {
     "Name":"510 Cajun Catering",
     "Address":"International Blvd, Oakland, CA 94602",
     "Phone":"(510) 393-5388",
-    "Website":"www.510cajuncatering.com",
+    "Website":"https://www.510cajuncatering.com",
     "Yelp":"https://www.yelp.com/biz/510-cajun-catering-oakland-4",
     "IG":"https://www.instagram.com/510cajuncatering",
     "FB":"https://www.facebook.com/510Cajuncatering/",
@@ -2505,7 +2514,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2519,7 +2528,7 @@ var geodata = {
     "Name":"Chef Kenneth Wynn",
     "Address":"4441 Briarcliff Road Oakland, California 94605",
     "Phone":"(510) 969-9665",
-    "Website":"www.wynncatering.com",
+    "Website":"https://www.wynncatering.com",
     "Yelp":"",
     "IG":"https://www.instagram.com/iplay4dawynn",
     "FB":"https://www.facebook.com/foodiefridayliegeoak/",
@@ -2538,7 +2547,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2571,7 +2580,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2604,7 +2613,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2637,7 +2646,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2651,7 +2660,7 @@ var geodata = {
     "Name":"Lena’s Soul Food Cafe",
     "Address":"6403 Foothill Blvd, Oakland, CA 94547",
     "Phone":"(510) 957-5663",
-    "Website":"www.lenassoulfoodcafe.com/",
+    "Website":"https://www.lenassoulfoodcafe.com/",
     "Yelp":"https://www.yelp.com/biz/lenas-soul-food-restaurant-oakland-2",
     "IG":"https://www.instagram.com/lenas.soul.food.cafe",
     "FB":"https://www.facebook.com/LenasSoulFoodCafe/",
@@ -2670,7 +2679,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2703,7 +2712,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2717,7 +2726,7 @@ var geodata = {
     "Name":"Axum Cafe",
     "Address":"698 Haight St, San Francisco, CA 94117",
     "Phone":"(415) 252-7912",
-    "Website":"www.axumcafesf.com/",
+    "Website":"https://www.axumcafesf.com/",
     "Yelp":"https://www.yelp.com/biz/axum-cafe-san-francisco",
     "IG":"",
     "FB":"https://www.facebook.com/pages/Axum-Cafe/114078861941475",
@@ -2736,7 +2745,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2750,7 +2759,7 @@ var geodata = {
     "Name":"Two Jacks Seafood",
     "Address":"401 Haight St, San Francisco, CA 94117",
     "Phone":"(415) 431-6290",
-    "Website":"www.twojacksniksplace.com/",
+    "Website":"https://www.twojacksniksplace.com/",
     "Yelp":"https://www.yelp.com/biz/two-jacks-seafood-san-francisco-3",
     "IG":"https://www.instagram.com/explore/locations/2865583/two-jacks-seafood",
     "FB":"https://www.facebook.com/Two-Jacks-Seafood-136117401902/",
@@ -2769,7 +2778,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2802,7 +2811,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2835,8 +2844,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://sextantcoffee.com/products/gift-card"
     }
   },
   {
@@ -2849,7 +2859,7 @@ var geodata = {
     "Name":"Ruth's Buka",
     "Address":"5250 Foothill Blvd, Oakland, CA 94601",
     "Phone":"(510) 479-1238",
-    "Website":"www.ruthsbuka.com",
+    "Website":"https://www.ruthsbuka.com",
     "Yelp":"https://www.yelp.com/biz/ruths-buka-oakland-2",
     "IG":"https://www.instagram.com/ruthsbuka",
     "FB":"https://www.facebook.com/ruthsbuka/",
@@ -2868,7 +2878,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2882,7 +2892,7 @@ var geodata = {
     "Name":"No Cookies",
     "Address":"5276 Foothill Blvd, Oakland, CA 94601",
     "Phone":"(510) 261-5373",
-    "Website":"www.nocookie.com/",
+    "Website":"https://www.nocookie.com/",
     "Yelp":"https://www.yelp.com/biz/no-cookie-oakland",
     "IG":"https://www.instagram.com/the_no_cookie",
     "FB":"https://www.facebook.com/thenocookie/",
@@ -2901,7 +2911,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":"Y"
     }
   },
@@ -2915,7 +2925,7 @@ var geodata = {
     "Name":"Kefa Coffee",
     "Address":"422 29th Ave, Oakland, CA 94601",
     "Phone":"(510) 261-3400",
-    "Website":"www.orderkefacoffee.com",
+    "Website":"https://www.orderkefacoffee.com",
     "Yelp":"https://www.yelp.com/biz/kefa-coffee-oakland",
     "IG":"https://www.instagram.com/kefaoakland",
     "FB":"https://www.facebook.com/CafeKefa/",
@@ -2934,7 +2944,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -2948,7 +2958,7 @@ var geodata = {
     "Name":"Eko Kitchen",
     "Address":"167 11th St, San Francisco, CA 94103",
     "Phone":"(410) 344-3362",
-    "Website":"www.ekokitchensf.online/",
+    "Website":"https://www.ekokitchensf.online/",
     "Yelp":"https://www.yelp.com/biz/eko-kitchen-san-francisco",
     "IG":"https://www.instagram.com/ekokitchensf",
     "FB":"https://www.facebook.com/ekokitchensf/",
@@ -2967,7 +2977,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3000,7 +3010,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3033,7 +3043,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3066,7 +3076,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":"Y"
     }
   },
@@ -3099,7 +3109,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3113,7 +3123,7 @@ var geodata = {
     "Name":"Sugarsweet",
     "Address":"5855 MacArthur Blvd, Oakland, CA 94605",
     "Phone":"(510) 924-7076",
-    "Website":"www.sugarsweetoak.com",
+    "Website":"https://www.sugarsweetoak.com",
     "Yelp":"https://www.yelp.com/biz/sugarsweet-cookie-cake-studio-oakland",
     "IG":"https://www.instagram.com/sugarsweetoak",
     "FB":"https://www.facebook.com/sugarsweetCS/",
@@ -3132,7 +3142,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3146,7 +3156,7 @@ var geodata = {
     "Name":"Hazel Southern Bar & Kitchen",
     "Address":"1446 Market St, San Francisco, CA 94102",
     "Phone":"(415) 964-9644",
-    "Website":"www.hazelsf.com",
+    "Website":"https://www.hazelsf.com",
     "Yelp":"https://www.yelp.com/biz/hazel-southern-bar-and-kitchen-san-francisco-4",
     "IG":"https://www.instagram.com/hazelbarsf",
     "FB":"https://www.facebook.com/hazelbarsf/",
@@ -3165,7 +3175,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3198,7 +3208,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -3212,7 +3222,7 @@ var geodata = {
     "Name":"Red Bay Coffee",
     "Address":"3098 E 10th St, Oakland, CA 94601",
     "Phone":"(510) 399-2441",
-    "Website":"www.redbaycoffee.com/",
+    "Website":"https://www.redbaycoffee.com/",
     "Yelp":"https://www.yelp.com/biz/red-bay-coffee-public-roastery-oakland",
     "IG":"https://www.instagram.com/redbaycoffee",
     "FB":"https://business.facebook.com/redbaycoffee/",
@@ -3231,8 +3241,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":"Y"
+    "TemporarilyClosed":"",
+    "OtherService":"Y",
+    "GiftCard":"https://www.redbaycoffee.com/collections/gift-cards"
     }
   },
   {
@@ -3245,7 +3256,7 @@ var geodata = {
     "Name":"Tastebuds",
     "Address":"600 5th Ave, San Francisco, CA 94118",
     "Phone":"(415) 668-9298",
-    "Website":"www.sftastebuds.com/",
+    "Website":"https://www.sftastebuds.com/",
     "Yelp":"https://www.yelp.com/biz/tastebuds-san-francisco-2",
     "IG":"https://www.instagram.com/tastebuds.sf",
     "FB":"",
@@ -3264,7 +3275,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3278,7 +3289,7 @@ var geodata = {
     "Name":"Oasis Cafe",
     "Address":"901 Divisadero St, San Francisco, CA 94115",
     "Phone":"(415) 474-4900",
-    "Website":"www.oasiscafesf.com/",
+    "Website":"https://www.oasiscafesf.com/",
     "Yelp":"https://www.yelp.com/biz/oasis-cafe-san-francisco-3",
     "IG":"",
     "FB":"",
@@ -3297,7 +3308,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3311,7 +3322,7 @@ var geodata = {
     "Name":"Little Skillet",
     "Address":"360 Ritch St, San Francisco, CA 94107",
     "Phone":"(415) 777-2777",
-    "Website":"www.littleskilletsf.com/",
+    "Website":"https://www.littleskilletsf.com/",
     "Yelp":"https://www.yelp.com/biz/little-skillet-san-francisco-2",
     "IG":"https://www.instagram.com/littleskilletsf",
     "FB":"https://www.facebook.com/littleskillet/",
@@ -3330,7 +3341,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3363,7 +3374,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3396,7 +3407,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3429,7 +3440,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3443,7 +3454,7 @@ var geodata = {
     "Name":"Sheba Piano Lounge",
     "Address":"1419 Fillmore St, San Francisco, CA 94115",
     "Phone":"(415) 440-7414",
-    "Website":"www.shebapianolounge.com/",
+    "Website":"https://www.shebapianolounge.com/",
     "Yelp":"https://www.yelp.com/biz/sheba-piano-lounge-san-francisco",
     "IG":"https://www.instagram.com/sheba_piano_lounge",
     "FB":"https://www.facebook.com/ShebaPianoLounge/",
@@ -3462,7 +3473,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -3476,7 +3487,7 @@ var geodata = {
     "Name":"Taqueria Los Mayas",
     "Address":"331 Clement St, San Francisco, CA 94118",
     "Phone":"(415) 548-2800",
-    "Website":"www.taquerialosmayassf.com",
+    "Website":"https://www.taquerialosmayassf.com",
     "Yelp":"https://www.yelp.com/biz/taqueria-los-mayas-san-francisco",
     "IG":"https://www.instagram.com/yucataninsf",
     "FB":"https://www.facebook.com/yucataninsf/",
@@ -3495,7 +3506,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3528,7 +3539,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3542,7 +3553,7 @@ var geodata = {
     "Name":"Man vs. Fries",
     "Address":"2307 International Blvd, Oakland, CA 94606",
     "Phone":"(510) 479-3449",
-    "Website":"www.manvsfries.com",
+    "Website":"https://www.manvsfries.com",
     "Yelp":"https://www.yelp.com/biz/man-vs-fries-oakland",
     "IG":"https://www.instagram.com/manvsfries",
     "FB":"https://www.facebook.com/manvsfries/",
@@ -3561,7 +3572,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":"Y"
     }
   },
@@ -3594,7 +3605,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3608,7 +3619,7 @@ var geodata = {
     "Name":"Voodoo Love",
     "Address":"303 2nd St, San Francisco, CA 94107",
     "Phone":"(415) 516-9243",
-    "Website":"www.voodoolovesf.com/",
+    "Website":"https://www.voodoolovesf.com/",
     "Yelp":"https://www.yelp.com/biz/voodoo-love-san-francisco",
     "IG":"https://www.instagram.com/voodoolovesf",
     "FB":"https://www.facebook.com/voodoolovesf",
@@ -3627,8 +3638,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://squareup.com/gift/KFDH097WTENR6/order"
     }
   },
   {
@@ -3641,7 +3653,7 @@ var geodata = {
     "Name":"Local Kitchen",
     "Address":"330 1st St #1, San Francisco, CA 94105",
     "Phone":"(415) 777-4200",
-    "Website":"www.sf-local.com",
+    "Website":"https://www.sf-local.com",
     "Yelp":"https://www.yelp.com/biz/local-kitchen-and-wine-merchant-san-francisco-2",
     "IG":"https://www.instagram.com/localkitchensf",
     "FB":"https://www.facebook.com/localkitchenandwine/",
@@ -3660,8 +3672,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://www.giftfly.com/shop/local-kitchen-and-wine-merchant"
     }
   },
   {
@@ -3693,7 +3706,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3707,7 +3720,7 @@ var geodata = {
     "Name":"International Smoke",
     "Address":"301 Mission St, San Francisco, CA 94105",
     "Phone":"(415) 722-2138",
-    "Website":"www.michaelmina.net/restaurants/international-smoke/san-francisco/",
+    "Website":"https://www.michaelmina.net/restaurants/international-smoke/san-francisco/",
     "Yelp":"https://www.yelp.com/biz/international-smoke-san-francisco-san-francisco-2",
     "IG":"https://www.instagram.com/internationalsmoke",
     "FB":"",
@@ -3726,8 +3739,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://www.michaelmina.net/gift-cards/"
     }
   },
   {
@@ -3759,7 +3773,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3792,7 +3806,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3806,7 +3820,7 @@ var geodata = {
     "Name":"Chop Bar",
     "Address":"190 4th St, Oakland, CA 94607",
     "Phone":"(510) 834-3467",
-    "Website":"www.oaklandchopbar.com",
+    "Website":"https://www.oaklandchopbar.com",
     "Yelp":"https://www.yelp.com/biz/chop-bar-oakland",
     "IG":"https://www.instagram.com/oaklandchopbar",
     "FB":"https://www.facebook.com/chopbar/",
@@ -3825,8 +3839,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":"Y"
+    "TemporarilyClosed":"",
+    "OtherService":"Y",
+    "GiftCard":"https://squareup.com/gift/FFS7ZSNB8YMA0/order"
     }
   },
   {
@@ -3839,7 +3854,7 @@ var geodata = {
     "Name":"Home of Chicken and Waffles",
     "Address":"444 Embarcadero West, Oakland, CA 94607",
     "Phone":"(510) 836-4446",
-    "Website":"www.homeofchickenandwaffles.com",
+    "Website":"https://www.homeofchickenandwaffles.com",
     "Yelp":"https://www.yelp.com/biz/home-of-chicken-and-waffles-oakland",
     "IG":"https://www.instagram.com/the_homeofchickenandwaffles",
     "FB":"https://www.facebook.com/thehomeofchickenandwaffles/",
@@ -3858,7 +3873,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3891,7 +3906,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3905,7 +3920,7 @@ var geodata = {
     "Name":"James and the Giant Cupcake",
     "Address":"465 2nd St, Oakland, CA 94607",
     "Phone":"(510) 879-7255",
-    "Website":"www.jamesandthegiantcupcake.com/",
+    "Website":"https://www.jamesandthegiantcupcake.com/",
     "Yelp":"https://www.yelp.com/biz/james-and-the-giant-cupcake-oakland-4",
     "IG":"https://www.instagram.com/jamesandthegiantcupcake",
     "FB":"https://www.facebook.com/jamesandthegiantcupcake/",
@@ -3924,7 +3939,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3957,7 +3972,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -3990,7 +4005,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4004,7 +4019,7 @@ var geodata = {
     "Name":"PieTisserie",
     "Address":"1605 2nd Ave, Oakland, CA 94606",
     "Phone":"",
-    "Website":"www.pietisserie.com",
+    "Website":"https://www.pietisserie.com",
     "Yelp":"https://www.yelp.com/biz/pietisserie-oakland-3",
     "IG":"https://www.instagram.com/pietisserie",
     "FB":"https://www.facebook.com/pietisserie",
@@ -4023,7 +4038,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4056,7 +4071,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4070,7 +4085,7 @@ var geodata = {
     "Name":"The Veg Hub",
     "Address":"2214 MacArthur Blvd, Oakland, CA 94602",
     "Phone":"(510) 454-8722",
-    "Website":"www.theveghub.com/",
+    "Website":"https://www.theveghub.com/",
     "Yelp":"https://www.yelp.com/biz/the-veg-hub-oakland-3",
     "IG":"https://www.instagram.com/theveghub",
     "FB":"https://www.facebook.com/theveghub/",
@@ -4089,7 +4104,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4122,7 +4137,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4155,7 +4170,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4169,7 +4184,7 @@ var geodata = {
     "Name":"Fort Green",
     "Address":"736 Washington St, Oakland, CA 94607",
     "Phone":"(510) 593-2172",
-    "Website":"www.fortgreenoakland.com/",
+    "Website":"https://www.fortgreenoakland.com/",
     "Yelp":"https://www.yelp.com/biz/fort-green-oakland-2",
     "IG":"https://www.instagram.com/fortgreenbar",
     "FB":"https://www.facebook.com/fortgreenbar/",
@@ -4188,7 +4203,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -4221,8 +4236,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://squareup.com/gift/AFNFPTXKDGGJV/order"
     }
   },
   {
@@ -4235,7 +4251,7 @@ var geodata = {
     "Name":"African Caribbean Food Market",
     "Address":"547 8th St, Oakland, CA 94607",
     "Phone":"(510) 444-2841",
-    "Website":"www.manmustwak.net",
+    "Website":"https://www.manmustwak.net",
     "Yelp":"https://www.yelp.com/biz/man-must-wak-oakland-3",
     "IG":"https://www.instagram.com/manmustwak",
     "FB":"",
@@ -4254,7 +4270,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4287,7 +4303,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4320,8 +4336,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"http://daflora.com/gift"
     }
   },
   {
@@ -4334,7 +4351,7 @@ var geodata = {
     "Name":"Miss Ollie’s",
     "Address":"901 Washington St, Oakland, CA 94607",
     "Phone":"(510) 285-6188",
-    "Website":"www.realmissolliesoakland.com/",
+    "Website":"https://www.realmissolliesoakland.com/",
     "Yelp":"https://www.yelp.com/biz/miss-ollies-oakland",
     "IG":"https://www.instagram.com/missolliesoakland",
     "FB":"https://www.facebook.com/MissOllies/",
@@ -4353,7 +4370,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4367,7 +4384,7 @@ var geodata = {
     "Name":"The Cook and Her Farmer",
     "Address":"510 9th St, Oakland, CA 94607",
     "Phone":"(510) 285-6140",
-    "Website":"www.thecookandherfarmer.com/",
+    "Website":"https://www.thecookandherfarmer.com/",
     "Yelp":"https://www.yelp.com/biz/the-cook-and-her-farmer-oakland-2",
     "IG":"https://www.instagram.com/thecookandherfarmer",
     "FB":"https://www.facebook.com/thecookandherfarmer/",
@@ -4386,8 +4403,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":"Y"
+    "TemporarilyClosed":"",
+    "OtherService":"Y",
+    "GiftCard":"https://squareup.com/gift/D6SA6RD1V3KAX/order"
     }
   },
   {
@@ -4419,7 +4437,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4433,7 +4451,7 @@ var geodata = {
     "Name":"Yammy's Caf&eacute & Deli",
     "Address":"542 9th St, Oakland, CA 94607",
     "Phone":"(510) 250-9756",
-    "Website":"www.yammysethiopiancafe.com",
+    "Website":"https://www.yammysethiopiancafe.com",
     "Yelp":"https://www.yelp.com/biz/yammy-s-cafe-oakland",
     "IG":"https://www.instagram.com/yamisdelicafe.1",
     "FB":"https://www.facebook.com/pages/category/Ethiopian-Restaurant/Yammys-Cafe-and-Deli-107442641006168/",
@@ -4452,7 +4470,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4485,7 +4503,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4499,7 +4517,7 @@ var geodata = {
     "Name":"Slides & Sides Eatery",
     "Address":"1100 Franklin Street, Oakland, CA 94607",
     "Phone":"(510) 922-1405",
-    "Website":"www.slidesnsides.com",
+    "Website":"https://www.slidesnsides.com",
     "Yelp":"https://www.yelp.com/biz/slides-sides-oakland",
     "IG":"https://www.instagram.com/slidesandsides",
     "FB":"https://www.facebook.com/pages/category/Restaurant/Slides-Sides-100771364935206/",
@@ -4518,7 +4536,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4532,7 +4550,7 @@ var geodata = {
     "Name":"Blue Nile",
     "Address":"160 14th St, Oakland, CA 94612",
     "Phone":"(510) 250-9609",
-    "Website":"www.bluenilefood.com/",
+    "Website":"https://www.bluenilefood.com/",
     "Yelp":"https://www.yelp.com/biz/blue-nile-ethiopian-oakland",
     "IG":"https://www.instagram.com/bluenileoak",
     "FB":"https://www.facebook.com/pages/category/Ethiopian-Restaurant/Blue-Nile-Ethiopian-Restaurant-Oakland-CA-1890392314600654/",
@@ -4551,7 +4569,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4565,7 +4583,7 @@ var geodata = {
     "Name":"Super Juiced",
     "Address":"540 9th St, Oakland, CA 94607",
     "Phone":"(510) 628-184",
-    "Website":"www.oaklandisjuiced.com/",
+    "Website":"https://www.oaklandisjuiced.com/",
     "Yelp":"https://www.yelp.com/biz/super-juiced-oakland",
     "IG":"https://www.instagram.com/superjuicedoakland",
     "FB":"https://www.facebook.com/superjuiced510/",
@@ -4584,7 +4602,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4598,7 +4616,7 @@ var geodata = {
     "Name":"Level 13",
     "Address":"341 13th St, Oakland, CA 94612",
     "Phone":"(510) 839-1999",
-    "Website":"www.level13oakland.com",
+    "Website":"https://www.level13oakland.com",
     "Yelp":"https://www.yelp.com/biz/level-13-oakland",
     "IG":"https://www.instagram.com/level13oakland",
     "FB":"https://www.facebook.com/level13lounge/",
@@ -4617,7 +4635,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4631,7 +4649,7 @@ var geodata = {
     "Name":"Tribune Tavern",
     "Address":"401 13th St, Oakland, CA 94612",
     "Phone":"(510) 607-8187",
-    "Website":"www.tribunetavernoakland.com",
+    "Website":"https://www.tribunetavernoakland.com",
     "Yelp":"https://www.yelp.com/biz/tribune-tavern-oakland",
     "IG":"https://www.instagram.com/tribunetavernoakland",
     "FB":"https://www.facebook.com/tribunetavernoakland/",
@@ -4650,8 +4668,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":"Y"
+    "TemporarilyClosed":"",
+    "OtherService":"Y",
+    "GiftCard":"https://squareup.com/gift/FFS7ZSNB8YMA0/order"
     }
   },
   {
@@ -4683,7 +4702,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4716,7 +4735,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -4730,7 +4749,7 @@ var geodata = {
     "Name":"7th West",
     "Address":"1255 7th St, Oakland, CA 94607",
     "Phone":"(415) 290-6501",
-    "Website":"www.7thwest.com",
+    "Website":"https://www.7thwest.com",
     "Yelp":"https://www.yelp.com/biz/7th-west-oakland",
     "IG":"https://www.instagram.com/7thwestoakland",
     "FB":"https://www.facebook.com/7thwestoakland/",
@@ -4749,8 +4768,9 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
-    "OtherService":""
+    "TemporarilyClosed":"Y",
+    "OtherService":"",
+    "GiftCard":"https://squareup.com/gift/7VS74RNSXXMSX/order"
     }
   },
   {
@@ -4782,7 +4802,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4796,7 +4816,7 @@ var geodata = {
     "Name":"Jusla Eats",
     "Address":"1409 Franklin St, Oakland, CA 94612",
     "Phone":"(510) 705-3721",
-    "Website":"www.cheflalaharrison.com/",
+    "Website":"https://www.cheflalaharrison.com/",
     "Yelp":"https://www.yelp.com/biz/jusla-oakland-2",
     "IG":"https://www.instagram.com/lala_icook4dapeople",
     "FB":"https://www.facebook.com/pages/category/Product-Service/Jusla-Eats-107791610684201/",
@@ -4815,7 +4835,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4829,7 +4849,7 @@ var geodata = {
     "Name":"Zella's Soulful Kitchen",
     "Address":"499 14th St, Oakland, CA 94612",
     "Phone":"(510) 604-5887",
-    "Website":"www.zellassoulfulkitchen.com/",
+    "Website":"https://www.zellassoulfulkitchen.com/",
     "Yelp":"https://www.yelp.com/biz/zellas-soulful-kitchen-oakland-2",
     "IG":"https://www.instagram.com/zellaskitchen",
     "FB":"https://www.facebook.com/Zellassoulfulkitchen/",
@@ -4848,7 +4868,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -4862,7 +4882,7 @@ var geodata = {
     "Name":"The Hatch",
     "Address":"402 15th St, Oakland, CA 94612",
     "Phone":"(650) 488-1962",
-    "Website":"www.thehatchoak.com/",
+    "Website":"https://www.thehatchoak.com/",
     "Yelp":"https://www.yelp.com/biz/the-hatch-oakland-oakland",
     "IG":"https://www.instagram.com/thehatchoak",
     "FB":"https://www.facebook.com/thehatcho/",
@@ -4881,7 +4901,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -4914,7 +4934,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4928,7 +4948,7 @@ var geodata = {
     "Name":"James and the Giant Cupcake **",
     "Address":"341 17th St, Oakland, CA 94612",
     "Phone":"(510) 879-7255",
-    "Website":"www.jamesandthegiantcupcake.com/",
+    "Website":"https://www.jamesandthegiantcupcake.com/",
     "Yelp":"https://www.yelp.com/biz/james-and-the-giant-cupcake-oakland-2",
     "IG":"https://www.instagram.com/jamesandthegiantcupcake",
     "FB":"https://www.facebook.com/jamesandthegiantcupcake/",
@@ -4947,7 +4967,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4961,7 +4981,7 @@ var geodata = {
     "Name":"Sobre Mesa",
     "Address":"1618 Franklin St, Oakland, CA 94612",
     "Phone":"(510) 858-7544",
-    "Website":"www.sobremesaoak.com/",
+    "Website":"https://www.sobremesaoak.com/",
     "Yelp":"https://www.yelp.com/biz/sobre-mesa-oakland-4",
     "IG":"https://www.instagram.com/sobremesaoak",
     "FB":"https://www.facebook.com/sobremesaoak/",
@@ -4980,7 +5000,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -4994,7 +5014,7 @@ var geodata = {
     "Name":"Rush Bowls",
     "Address":"350 17th St, Oakland, CA 94612",
     "Phone":"(510) 590-9068",
-    "Website":"www.rushbowls.com/oakland",
+    "Website":"https://www.rushbowls.com/oakland",
     "Yelp":"https://www.yelp.com/biz/rush-bowls-oakland-3",
     "IG":"https://www.instagram.com/rushbowlsoakland",
     "FB":"https://www.facebook.com/RushBowlsOakland17thSt/",
@@ -5013,7 +5033,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5046,7 +5066,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5079,7 +5099,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5112,7 +5132,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5126,7 +5146,7 @@ var geodata = {
     "Name":"Drexl",
     "Address":"382 19th St, Oakland, CA 94612",
     "Phone":"(510) 858-5398",
-    "Website":"www.drexl.bar/",
+    "Website":"https://www.drexl.bar/",
     "Yelp":"https://www.yelp.com/biz/drexl-bar-oakland",
     "IG":"https://www.instagram.com/drexlbar",
     "FB":"https://www.facebook.com/drexlbar/",
@@ -5145,7 +5165,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -5159,7 +5179,7 @@ var geodata = {
     "Name":"Marzano",
     "Address":"4214 Park Blvd, Oakland, CA 94602",
     "Phone":"(510) 479-1448",
-    "Website":"www.marzanorestaurant.com",
+    "Website":"https://www.marzanorestaurant.com",
     "Yelp":"https://www.yelp.com/biz/marzano-oakland-4",
     "IG":"https://www.instagram.com/marzanorestaurant",
     "FB":"https://www.facebook.com/marzanorestaurant/",
@@ -5178,7 +5198,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5192,7 +5212,7 @@ var geodata = {
     "Name":"The Miranda",
     "Address":"1739 Broadway, Oakland, CA 94612",
     "Phone":"(510) 740-5760",
-    "Website":"www.themirandaoakland.com/",
+    "Website":"https://www.themirandaoakland.com/",
     "Yelp":"https://www.yelp.com/biz/the-miranda-oakland",
     "IG":"https://www.instagram.com/themirandabar",
     "FB":"https://www.facebook.com/themirandabar/",
@@ -5211,7 +5231,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -5225,7 +5245,7 @@ var geodata = {
     "Name":"Brundo Spices",
     "Address":"1960 Mandela Pkwy Bay 6, Oakland, CA 94607",
     "Phone":"(510) 289-4050",
-    "Website":"www.brundo.com",
+    "Website":"https://www.brundo.com",
     "Yelp":"https://www.yelp.com/biz/brundo-ethiopian-spice-company-oakland",
     "IG":"https://www.instagram.com/brundospices",
     "FB":"https://www.facebook.com/brundoethiopianspices/",
@@ -5244,7 +5264,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":"Y"
     }
   },
@@ -5277,7 +5297,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5291,7 +5311,7 @@ var geodata = {
     "Name":"Enssaro Ethiopian",
     "Address":"357-A Grand Ave, Oakland, CA 94610",
     "Phone":"(510) 238-9050",
-    "Website":"www.enssaro.com/",
+    "Website":"https://www.enssaro.com/",
     "Yelp":"https://www.yelp.com/biz/enssaro-ethiopian-restaurant-oakland-3",
     "IG":"https://www.instagram.com/enssarooakland",
     "FB":"https://www.facebook.com/Enssaro/",
@@ -5310,7 +5330,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -5324,7 +5344,7 @@ var geodata = {
     "Name":"Little Giant Ice Cream",
     "Address":"1951 Telegraph Ave, Oakland, CA 94612",
     "Phone":"(510) 922-1426",
-    "Website":"www.littlegianticecream.com/",
+    "Website":"https://www.littlegianticecream.com/",
     "Yelp":"https://www.yelp.com/biz/little-giant-ice-cream-oakland",
     "IG":"https://www.instagram.com/littlegiant_ic",
     "FB":"https://www.facebook.com/Little-Giant-Ice-Cream-436837296466443/",
@@ -5343,7 +5363,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5357,7 +5377,7 @@ var geodata = {
     "Name":"Grandeur",
     "Address":"366B Grand Ave, Oakland, CA 94610",
     "Phone":"(510) 879-7568",
-    "Website":"www.grandeuroakland.com/",
+    "Website":"https://www.grandeuroakland.com/",
     "Yelp":"https://www.yelp.com/biz/grandeur-oakland-oakland",
     "IG":"https://www.instagram.com/grandeurongrand",
     "FB":"https://www.facebook.com/grandeurongrand/",
@@ -5376,7 +5396,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5390,7 +5410,7 @@ var geodata = {
     "Name":"Ca&ntildea Cuban Parlor & Cafe",
     "Address":"530 Lake Park Ave, Oakland, CA 94610",
     "Phone":"(510) 832-1515",
-    "Website":"www.canaoakland.com",
+    "Website":"https://www.canaoakland.com",
     "Yelp":"https://www.yelp.com/biz/cana-cuban-parlor-and-cafe-oakland",
     "IG":"https://www.instagram.com/canaoakland",
     "FB":"https://www.facebook.com/CANACUBANPARLORANDCAFE/",
@@ -5409,7 +5429,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5442,8 +5462,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://squareup.com/gift/43TGZM7FJ1PD8/order"
     }
   },
   {
@@ -5475,7 +5496,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5489,7 +5510,7 @@ var geodata = {
     "Name":"Mela Bistro",
     "Address":"35 Grand Ave, Oakland, CA 94612",
     "Phone":"(510) 844-4886",
-    "Website":"www.melabistro.com/",
+    "Website":"https://www.melabistro.com/",
     "Yelp":"https://www.yelp.com/biz/mela-bistro-oakland",
     "IG":"https://www.instagram.com/melabistrooakland",
     "FB":"https://www.facebook.com/Mela-Bistro-Modern-Ethiopian-Cuisine-107966960622731/",
@@ -5508,7 +5529,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5522,7 +5543,7 @@ var geodata = {
     "Name":"Alamar Kitchen",
     "Address":"100 Grand Ave #111, Oakland, CA 94612",
     "Phone":"(510) 907-7555",
-    "Website":"www.alamaroakland.com",
+    "Website":"https://www.alamaroakland.com",
     "Yelp":"https://www.yelp.com/biz/alamar-kitchen-and-bar-oakland-3",
     "IG":"https://www.instagram.com/alamaroakland",
     "FB":"https://www.facebook.com/alamaroakland/",
@@ -5541,8 +5562,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://squareup.com/gift/7NTCSMVT9FHV4/order"
     }
   },
   {
@@ -5555,7 +5577,7 @@ var geodata = {
     "Name":"Gregory's Gourmet Desserts",
     "Address":"285 23rd St, Oakland, CA 94612",
     "Phone":"(510) 272-9722",
-    "Website":"www.gregorysgourmetdesserts.com/",
+    "Website":"https://www.gregorysgourmetdesserts.com/",
     "Yelp":"https://www.yelp.com/biz/gregorys-gourmet-desserts-oakland",
     "IG":"https://www.instagram.com/gregorysgourmetdesserts",
     "FB":"https://www.facebook.com/GregorysGourmetDesserts/",
@@ -5574,7 +5596,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5588,7 +5610,7 @@ var geodata = {
     "Name":"Monaghan's On the Hill",
     "Address":"2820 Mountain Blvd, Oakland, CA 94602",
     "Phone":"(510) 482-2500",
-    "Website":"www.monaghansoakland.com",
+    "Website":"https://www.monaghansoakland.com",
     "Yelp":"https://www.yelp.com/biz/monaghans-on-the-hill-oakland-3",
     "IG":"https://www.instagram.com/monaghanshill",
     "FB":"https://www.facebook.com/pages/category/American-Restaurant/Monaghans-on-the-Hill-263486457073356/",
@@ -5607,7 +5629,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5618,10 +5640,10 @@ var geodata = {
        "coordinates":  [ -122.248287,37.812021 ]
     },
     "properties": {
-    "Name":"Cafe Romanat",
+    "Name":"Caf&eacute Romanat",
     "Address":"462 Santa Clara Ave, Oakland, CA 94610",
     "Phone":"(510) 444-1800",
-    "Website":"www.caferomanat.com",
+    "Website":"https://www.caferomanat.com",
     "Yelp":"https://www.yelp.com/biz/cafe-romanat-oakland",
     "IG":"https://www.instagram.com/caferomanat",
     "FB":"https://www.facebook.com/pages/category/Ethiopian-Restaurant/Cafe-Romanat-Ethiopian-Restaurant-244273885669115/",
@@ -5640,8 +5662,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://www.caferomanat.com/gift-cards"
     }
   },
   {
@@ -5654,7 +5677,7 @@ var geodata = {
     "Name":"Brown Sugar Kitchen",
     "Address":"2295 Broadway, Oakland, CA 94612",
     "Phone":"(510) 839-7685",
-    "Website":"www.brownsugarkitchen.com/",
+    "Website":"https://www.brownsugarkitchen.com/",
     "Yelp":"https://www.yelp.com/biz/brown-sugar-kitchen-oakland-3",
     "IG":"https://www.instagram.com/brownsugarkitchen",
     "FB":"https://www.facebook.com/brownsugarkitchen/",
@@ -5673,8 +5696,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://www.toasttab.com/brown-sugar-kitchen-uptown/GiftCard"
     }
   },
   {
@@ -5687,7 +5711,7 @@ var geodata = {
     "Name":"Kingston 11 Cuisine",
     "Address":"2270 Telegraph Ave, Oakland, CA 94612",
     "Phone":"(510) 465-2558",
-    "Website":"http://kingston11eats.com/dinner/",
+    "Website":"http://kingston11eats.com",
     "Yelp":"https://www.yelp.com/biz/kingston-11-cuisine-oakland",
     "IG":"https://www.instagram.com/_kingston11",
     "FB":"https://www.facebook.com/kingston11cuisine/",
@@ -5706,8 +5730,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"Available by phone"
     }
   },
   {
@@ -5720,7 +5745,7 @@ var geodata = {
     "Name":"Calavera",
     "Address":"2337 Broadway, Oakland, CA 94612",
     "Phone":"(510) 338-3273",
-    "Website":"www.calaveraoakland.com",
+    "Website":"https://www.calaveraoakland.com",
     "Yelp":"https://www.yelp.com/biz/calavera-oakland",
     "IG":"https://www.instagram.com/calaveraoakland",
     "FB":"",
@@ -5739,7 +5764,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5753,7 +5778,7 @@ var geodata = {
     "Name":"Malibu's Burgers",
     "Address":"3332 Grand Ave, Oakland, CA 94610",
     "Phone":"(510) 387-1018",
-    "Website":"www.malibusburgers.com",
+    "Website":"https://www.malibusburgers.com",
     "Yelp":"https://www.yelp.com/biz/malibu-s-burgers-oakland",
     "IG":"https://www.instagram.com/malibusburgers",
     "FB":"https://www.facebook.com/malibusburgers/",
@@ -5772,7 +5797,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5786,7 +5811,7 @@ var geodata = {
     "Name":"The Lumpia Company",
     "Address":"372 24th St, Oakland, CA 94612",
     "Phone":"(510) 835-5885",
-    "Website":"www.thelumpiacompany.com",
+    "Website":"https://www.thelumpiacompany.com",
     "Yelp":"https://www.yelp.com/biz/the-lumpia-company-oakland",
     "IG":"https://www.instagram.com/thelumpiacompany",
     "FB":"https://www.facebook.com/thelumpiacompany/",
@@ -5805,7 +5830,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5819,7 +5844,7 @@ var geodata = {
     "Name":"Two Chicks in the Mix",
     "Address":"372 24th St, Oakland, CA 94612",
     "Phone":"(510) 213-8542",
-    "Website":"www.twochicksinthemix.com/",
+    "Website":"https://www.twochicksinthemix.com/",
     "Yelp":"https://www.yelp.com/biz/two-chicks-in-the-mix-oakland",
     "IG":"https://www.instagram.com/twochicksinthemix",
     "FB":"https://www.facebook.com/twochicksinthemix/",
@@ -5838,7 +5863,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5871,7 +5896,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5904,7 +5929,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -5918,7 +5943,7 @@ var geodata = {
     "Name":"Stay Gold Deli",
     "Address":"2635 San Pablo Ave, Oakland, CA 94612",
     "Phone":"(510) 350-8729",
-    "Website":"www.staygolddeli.com",
+    "Website":"https://www.staygolddeli.com",
     "Yelp":"https://www.yelp.com/biz/stay-gold-deli-oakland",
     "IG":"https://www.instagram.com/staygoldoakland",
     "FB":"https://www.facebook.com/staygolddeli/",
@@ -5937,7 +5962,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -5951,7 +5976,7 @@ var geodata = {
     "Name":"Horn BBQ",
     "Address":"2534 Mandela Pkwy, Oakland, CA 94607",
     "Phone":"(408) 648-3512",
-    "Website":"www.hornbarbecue.com",
+    "Website":"https://www.hornbarbecue.com",
     "Yelp":"https://www.yelp.com/biz/horn-barbecue-oakland",
     "IG":"https://www.instagram.com/hornbarbecue",
     "FB":"https://www.facebook.com/Hornbarbecue/",
@@ -5970,7 +5995,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -5984,7 +6009,7 @@ var geodata = {
     "Name":"Carolyn's Creole Kitchen",
     "Address":"2921 Chestnut St, Oakland, CA 94608",
     "Phone":"(510) 725-2070",
-    "Website":"www.gocreole.co/",
+    "Website":"https://www.gocreole.co/",
     "Yelp":"https://www.yelp.com/biz/carolyns-creole-kitchen-emeryville",
     "IG":"https://www.instagram.com/carolyncreolekitchen",
     "FB":"https://www.facebook.com/pages/category/Cajun---Creole-Restaurant/Carolyns-Creole-Kitchen-2088136501228800/",
@@ -6003,7 +6028,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6036,7 +6061,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6069,7 +6094,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6083,7 +6108,7 @@ var geodata = {
     "Name":"Magnolia Street Wine Lounge + Kitchen",
     "Address":"3443 San Pablo Ave, Oakland, CA 94608",
     "Phone":"(510) 205-8540",
-    "Website":"www.chefleilani.com",
+    "Website":"https://www.chefleilani.com",
     "Yelp":"",
     "IG":"https://www.instagram.com/magnoliastwinelounge",
     "FB":"https://www.facebook.com/magnoliastwinelounge/",
@@ -6102,7 +6127,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6116,7 +6141,7 @@ var geodata = {
     "Name":"Hella Nuts",
     "Address":"3645 Martin Luther King Jr Way, Oakland, CA 94609",
     "Phone":"(510) 463-1690",
-    "Website":"www.thatshellanuts.com",
+    "Website":"https://www.thatshellanuts.com",
     "Yelp":"https://www.yelp.com/biz/hella-nuts-oakland-2",
     "IG":"https://www.instagram.com/hella_nuts",
     "FB":"https://www.facebook.com/HellaNutsEatery/",
@@ -6135,7 +6160,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6168,7 +6193,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6182,7 +6207,7 @@ var geodata = {
     "Name":"Teni East Kitchen",
     "Address":"4015 Broadway, Oakland, CA 94611",
     "Phone":"(510) 597-1860",
-    "Website":"www.tenieastkitchen.com",
+    "Website":"https://www.tenieastkitchen.com",
     "Yelp":"https://www.yelp.com/biz/teni-east-kitchen-oakland",
     "IG":"https://www.instagram.com/tenieastkitchen",
     "FB":"https://www.facebook.com/tenieastkitchen/",
@@ -6201,7 +6226,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6215,7 +6240,7 @@ var geodata = {
     "Name":"Minto Jamaican Market",
     "Address":"4042 Broadway, Oakland, CA 94611",
     "Phone":"(510) 652-2168",
-    "Website":"www.mintojamaicanmarket.com",
+    "Website":"https://www.mintojamaicanmarket.com",
     "Yelp":"https://www.yelp.com/biz/minto-jamaican-market-oakland",
     "IG":"https://www.instagram.com/mintojamaicanmarket510",
     "FB":"https://www.facebook.com/MintoMarket/?rf=458637607600727",
@@ -6234,7 +6259,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":"Y"
     }
   },
@@ -6267,7 +6292,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6300,7 +6325,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6333,7 +6358,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6347,7 +6372,7 @@ var geodata = {
     "Name":"Cafe Dejena",
     "Address":"3939 Martin Luther King Jr Way, Oakland, CA 94609",
     "Phone":"(510) 655-9328",
-    "Website":"www.cafedejena.com/",
+    "Website":"https://www.cafedejena.com/",
     "Yelp":"https://www.yelp.com/biz/cafe-dejena-oakland",
     "IG":"https://www.instagram.com/cafe_dejena",
     "FB":"https://www.facebook.com/CafeDejena/",
@@ -6366,7 +6391,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6399,7 +6424,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -6432,7 +6457,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6465,7 +6490,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6479,7 +6504,7 @@ var geodata = {
     "Name":"Smokin Woods BBQ",
     "Address":"4307 Telegraph Ave, Oakland, CA 94609",
     "Phone":"(510) 423-8634",
-    "Website":"www.smokinwoodsbbq.com",
+    "Website":"https://www.smokinwoodsbbq.com",
     "Yelp":"https://www.yelp.com/biz/smokin-woods-bbq-oakland-9",
     "IG":"https://www.instagram.com/smokinwoodsbbq",
     "FB":"https://www.facebook.com/smokinwoodsbbq/",
@@ -6498,7 +6523,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6531,7 +6556,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6564,7 +6589,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6597,7 +6622,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6630,7 +6655,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6663,7 +6688,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6696,7 +6721,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6729,7 +6754,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6743,7 +6768,7 @@ var geodata = {
     "Name":"Minnie Bell's Soul Movement",
     "Address":"5959 Shellmound St, Emeryville, CA 94608",
     "Phone":"(510) 879-7199",
-    "Website":"www.minniebellssoul.com/",
+    "Website":"https://www.minniebellssoul.com/",
     "Yelp":"https://www.yelp.com/biz/minnie-bells-soul-movement-emeryville-3",
     "IG":"https://www.instagram.com/minnie_bells",
     "FB":"https://www.facebook.com/minniebells/",
@@ -6762,8 +6787,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://squareup.com/gift/9MNM09DKVJHX2/order"
     }
   },
   {
@@ -6776,7 +6802,7 @@ var geodata = {
     "Name":"It's All Good Bakery",
     "Address":"5622 Martin Luther King Jr Way, Oakland, CA 94609",
     "Phone":"(510) 597-9700",
-    "Website":"www.itsallgoodbakery.com/home.php",
+    "Website":"https://www.itsallgoodbakery.com/home.php",
     "Yelp":"https://www.yelp.com/biz/its-all-good-bakery-oakland",
     "IG":"https://www.instagram.com/itsallgoodbakery",
     "FB":"https://www.facebook.com/Its-All-Good-Bakery-Inc-105316053172/",
@@ -6795,7 +6821,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6828,7 +6854,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6861,7 +6887,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6875,7 +6901,7 @@ var geodata = {
     "Name":"James and the Giant Cupcake",
     "Address":"6326 San Pablo Ave, Oakland, CA 94608",
     "Phone":"(510) 879-7255",
-    "Website":"www.jamesandthegiantcupcake.com/",
+    "Website":"https://www.jamesandthegiantcupcake.com/",
     "Yelp":"https://www.yelp.com/biz/james-and-the-giant-cupcake-oakland",
     "IG":"https://www.instagram.com/jamesandthegiantcupcake",
     "FB":"https://www.facebook.com/jamesandthegiantcupcake/",
@@ -6894,7 +6920,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6927,7 +6953,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -6941,7 +6967,7 @@ var geodata = {
     "Name":"Alchemy Coffee Collective",
     "Address":"1741 Alcatraz Ave, Berkeley, CA 94703",
     "Phone":"(510) 394-4758",
-    "Website":"www.alchemycollectivecafe.com/",
+    "Website":"https://www.alchemycollectivecafe.com/",
     "Yelp":"https://www.yelp.com/biz/alchemy-collective-cafe-berkeley-4",
     "IG":"https://www.instagram.com/alchemycollective",
     "FB":"https://www.facebook.com/Alchemycollective/",
@@ -6960,7 +6986,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -6974,7 +7000,7 @@ var geodata = {
     "Name":"Lemat",
     "Address":"3212 Adeline St, Berkeley, CA 94703",
     "Phone":"(510) 430-2717",
-    "Website":"www.lemateats.com/",
+    "Website":"https://www.lemateats.com/",
     "Yelp":"https://www.yelp.com/biz/lemat-berkeley",
     "IG":"https://www.instagram.com/lemat_ethiopian_restaurant",
     "FB":"https://www.facebook.com/lematethiorestaurant/",
@@ -6993,7 +7019,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7007,7 +7033,7 @@ var geodata = {
     "Name":"Cafe Colucci",
     "Address":"6427 Telegraph Ave, Oakland, CA 94609",
     "Phone":"(510) 473-5944",
-    "Website":"www.cafecolucci.com/",
+    "Website":"https://www.cafecolucci.com/",
     "Yelp":"https://www.yelp.com/biz/cafe-colucci-oakland",
     "IG":"https://www.instagram.com/cafecolucci",
     "FB":"https://www.facebook.com/cafecolucc/",
@@ -7026,7 +7052,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7059,7 +7085,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7073,7 +7099,7 @@ var geodata = {
     "Name":"Rasa Caffe",
     "Address":"3140 Martin Luther King Jr Way, Berkeley, CA 94703",
     "Phone":"",
-    "Website":"www.rasacaffe.com/",
+    "Website":"https://www.rasacaffe.com/",
     "Yelp":"https://www.yelp.com/biz/rasa-caffe-berkeley",
     "IG":"https://www.instagram.com/rasacaffe",
     "FB":"https://www.facebook.com/rasacaffeberkeley/",
@@ -7092,7 +7118,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7125,7 +7151,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7139,7 +7165,7 @@ var geodata = {
     "Name":"Cali Alley",
     "Address":"1012 Grayson St, Berkeley, CA 94710",
     "Phone":"(510) 644-4473",
-    "Website":"www.calialley.com",
+    "Website":"https://www.calialley.com",
     "Yelp":"https://www.yelp.com/biz/cali-alley-berkeley-2",
     "IG":"https://www.instagram.com/cali.alley",
     "FB":"https://www.facebook.com/calialley510/",
@@ -7158,7 +7184,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7191,7 +7217,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7224,7 +7250,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7257,7 +7283,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7271,7 +7297,7 @@ var geodata = {
     "Name":"Nuttin' Butter Cookies",
     "Address":"2521 San Pablo Ave, Berkeley, CA 94702",
     "Phone":"(510) 610-2303",
-    "Website":"www.nuttinbuttercookies.com",
+    "Website":"https://www.nuttinbuttercookies.com",
     "Yelp":"https://www.yelp.com/biz/nuttin-butter-cookies-berkeley",
     "IG":"https://www.instagram.com/nuttin_buttercookies",
     "FB":"https://www.facebook.com/NuttinButters",
@@ -7290,7 +7316,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7323,7 +7349,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7356,7 +7382,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7370,7 +7396,7 @@ var geodata = {
     "Name":"FinFine",
     "Address":"2556 Telegraph Ave, Berkeley, CA 94704",
     "Phone":"(510) 883-167",
-    "Website":"www.finfine.com",
+    "Website":"https://www.finfine.com",
     "Yelp":"https://www.yelp.com/biz/finfine-ethiopian-restaurant-berkeley",
     "IG":"",
     "FB":"",
@@ -7389,7 +7415,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -7422,7 +7448,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7436,7 +7462,7 @@ var geodata = {
     "Name":"A Girl Named Pinky",
     "Address":"2495 Bancroft Way, Berkeley, CA 94704",
     "Phone":"(510) 631-6174",
-    "Website":"www.agirlnamedpinky.com/",
+    "Website":"https://www.agirlnamedpinky.com/",
     "Yelp":"https://www.yelp.com/biz/a-girl-named-pinky-cake-boutique-berkeley",
     "IG":"https://www.instagram.com/agirlnamedpinky",
     "FB":"https://www.facebook.com/AGirlNamedPinky/",
@@ -7455,8 +7481,9 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://www.agirlnamedpinky.com/gift-card"
     }
   },
   {
@@ -7469,7 +7496,7 @@ var geodata = {
     "Name":"Pinky and Red's",
     "Address":"2495 Bancroft Way, Berkeley, CA 94720",
     "Phone":"(510) 255-1516",
-    "Website":"www.pinkyandreds.com/",
+    "Website":"https://www.pinkyandreds.com/",
     "Yelp":"https://www.yelp.com/biz/pinky-and-reds-berkeley",
     "IG":"https://www.instagram.com/pinkyandreds",
     "FB":"",
@@ -7488,8 +7515,9 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
-    "OtherService":""
+    "TemporarilyClosed":"Y",
+    "OtherService":"",
+    "GiftCard":"https://squareup.com/gift/FFE3T026FJX76/order"
     }
   },
   {
@@ -7521,7 +7549,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7535,7 +7563,7 @@ var geodata = {
     "Name":"KC's BBQ",
     "Address":"1235 San Pablo Ave, Berkeley, CA 94706",
     "Phone":"(510) 526-6325",
-    "Website":"www.kcsbbq.com",
+    "Website":"https://www.kcsbbq.com",
     "Yelp":"https://www.yelp.com/biz/kcs-bbq-berkeley-2",
     "IG":"https://www.instagram.com/kcsbbq",
     "FB":"https://www.facebook.com/kcsbbqberkeley/",
@@ -7554,7 +7582,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7587,8 +7615,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://www.giftrocker.com/secure/Order/?h=1ee5fd1c"
     }
   },
   {
@@ -7620,7 +7649,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7634,9 +7663,9 @@ var geodata = {
     "Name":"Juanita and Maude",
     "Address":"825 San Pablo Ave, Albany, CA 94706",
     "Phone":"(510) 526-2233",
-    "Website":"www.juanitaandmaude.com/",
+    "Website":"https://www.juanitaandmaude.com/",
     "Yelp":"https://www.yelp.com/biz/juanita-and-maude-albany",
-    "IG":"https://www.instagram.com/juanitaandmaude",
+    "IG":"https://www.instagram.com/juanitaandmaude/",
     "FB":"https://www.facebook.com/juanitaandmaude/",
     "City":"Albany",
     "Region":"East Bay",
@@ -7653,8 +7682,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://www.giftfly.com/shop/juanita-and-maude"
     }
   },
   {
@@ -7686,7 +7716,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7719,7 +7749,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7752,7 +7782,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7785,7 +7815,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7818,7 +7848,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7851,7 +7881,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7884,7 +7914,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7898,7 +7928,7 @@ var geodata = {
     "Name":"Big Country Kitchen",
     "Address":"3399 Clayton Rd, Concord, CA 94519",
     "Phone":"(925) 822-3009",
-    "Website":"www.bigcountrykitchenllc.com",
+    "Website":"https://www.bigcountrykitchenllc.com",
     "Yelp":"https://www.yelp.com/biz/big-country-kitchen-concord-3",
     "IG":"https://www.instagram.com/bigcountrykitchenllc",
     "FB":"https://www.facebook.com/Bigcountrykitchenllc/",
@@ -7917,7 +7947,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7950,7 +7980,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -7983,7 +8013,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8016,7 +8046,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8030,7 +8060,7 @@ var geodata = {
     "Name":"Pure Juice & Smoothie Lounge",
     "Address":"3375 Port Chicago Hwy, Concord, CA 94520",
     "Phone":"(925) 375-1376",
-    "Website":"www.purejuiceandsmoothie.com/",
+    "Website":"https://www.purejuiceandsmoothie.com/",
     "Yelp":"https://www.yelp.com/biz/pure-juice-and-smoothie-lounge-concord-4",
     "IG":"https://www.instagram.com/purejuicelounge",
     "FB":"https://www.facebook.com/purejuiceloungeconcord/",
@@ -8049,8 +8079,9 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
-    "OtherService":""
+    "TemporarilyClosed":"",
+    "OtherService":"",
+    "GiftCard":"https://squareup.com/gift/D49JZ0RBYFNT1/order"
     }
   },
   {
@@ -8063,7 +8094,7 @@ var geodata = {
     "Name":"Omar's Chicken and Waffles",
     "Address":"4399 Century Blvd, Pittsburg, CA 94565",
     "Phone":"(925) 777-3312",
-    "Website":"www.omarschickenandwaffles.com/",
+    "Website":"https://www.omarschickenandwaffles.com/",
     "Yelp":"https://www.yelp.com/biz/omars-chicken-and-waffles-pittsburg",
     "IG":"",
     "FB":"https://www.facebook.com/pages/category/Restaurant/Omars-Chicken-Waffles-445687116232772/",
@@ -8082,7 +8113,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8115,7 +8146,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8148,7 +8179,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -8162,7 +8193,7 @@ var geodata = {
     "Name":"Solid Rock Cafe",
     "Address":"422 W 2nd St, Antioch, CA 94509",
     "Phone":"(925) 481-2706",
-    "Website":"www.solidrockcafe.us/",
+    "Website":"https://www.solidrockcafe.us/",
     "Yelp":"https://www.yelp.com/biz/solid-rock-cafe-antioch",
     "IG":"",
     "FB":"https://www.facebook.com/SolidRockCafeAntioch/",
@@ -8181,7 +8212,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8214,7 +8245,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -8247,7 +8278,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8261,7 +8292,7 @@ var geodata = {
     "Name":"Forrest Fire BBQ",
     "Address":"155 Marinwood Ave, San Rafael, California 94903",
     "Phone":"(628) 800-3473",
-    "Website":"www.forrestfirebbq.com",
+    "Website":"https://www.forrestfirebbq.com",
     "Yelp":"https://www.yelp.com/biz/forrest-fire-bbq-san-rafael-2",
     "IG":"https://www.instagram.com/forrestfirebbq",
     "FB":"https://www.facebook.com/forrestfirebbq/",
@@ -8280,7 +8311,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8294,7 +8325,7 @@ var geodata = {
     "Name":"Sugartown Cafe",
     "Address":"611 2nd Ave, Crockett, CA 94525",
     "Phone":"(510) 722-3220",
-    "Website":"www.sugartowncafe.com/",
+    "Website":"https://www.sugartowncafe.com/",
     "Yelp":"https://www.yelp.com/biz/the-cafe-at-sugartown-sweet-shoppe-crockett-3",
     "IG":"https://www.instagram.com/sugartowncafe",
     "FB":"https://www.facebook.com/sugartowncafe/",
@@ -8313,7 +8344,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"Y",
+    "TemporarilyClosed":"Y",
     "OtherService":""
     }
   },
@@ -8346,7 +8377,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8379,7 +8410,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8412,7 +8443,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8445,7 +8476,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8459,7 +8490,7 @@ var geodata = {
     "Name":"Yes My Sweet",
     "Address":"2820 Sonoma Blvd, Vallejo, CA 94590",
     "Phone":"(707) 731-2780",
-    "Website":"www.yesmysweet.com/",
+    "Website":"https://www.yesmysweet.com/",
     "Yelp":"https://www.yelp.com/biz/yes-my-sweet-bbq-and-catering-vallejo-2",
     "IG":"https://www.instagram.com/yesmysweetbbq",
     "FB":"https://www.facebook.com/yesmysweetbbq/",
@@ -8478,7 +8509,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8492,7 +8523,7 @@ var geodata = {
     "Name":"Hummingbird Bakery & Dessert Bar",
     "Address":"3272 Sonoma Blvd, Vallejo, CA 94590",
     "Phone":"(707) 644-4885",
-    "Website":"www.hummingbirddesserts.com/",
+    "Website":"https://www.hummingbirddesserts.com/",
     "Yelp":"https://www.yelp.com/biz/hummingbird-bakery-and-dessert-bar-vallejo",
     "IG":"",
     "FB":"https://www.facebook.com/Hummingbirdbakerydessertbar/",
@@ -8511,7 +8542,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8525,7 +8556,7 @@ var geodata = {
     "Name":"Spicy Girl Meal Prep",
     "Address":"1922 Broadway St, Vallejo, CA 94589",
     "Phone":"(707) 400-8599",
-    "Website":"www.spicygirlmealprep.com/",
+    "Website":"https://www.spicygirlmealprep.com/",
     "Yelp":"https://www.yelp.com/biz/spicy-girl-meal-prep-vallejo-3",
     "IG":"https://www.instagram.com/spicygirlmealprep",
     "FB":"https://www.facebook.com/SpicyGirlMealPrep/",
@@ -8544,7 +8575,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8577,7 +8608,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8591,7 +8622,7 @@ var geodata = {
     "Name":"Street Social",
     "Address":"29 F Petaluma Blvd N, Petaluma, CA 94952",
     "Phone":"(707) 772-6185",
-    "Website":"www.streetsocial.social",
+    "Website":"https://www.streetsocial.social",
     "Yelp":"https://www.yelp.com/biz/street-social-petaluma",
     "IG":"https://www.instagram.com/street_social",
     "FB":"https://www.facebook.com/StreetSocialStreetSocial/",
@@ -8610,7 +8641,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":"Y"
     }
   },
@@ -8624,7 +8655,7 @@ var geodata = {
     "Name":"Chez Soul Southern Cuisine",
     "Address":"711 Madison St, Fairfield, CA 94533",
     "Phone":"(707) 427-3338",
-    "Website":"www.chezsoulsoutherncuisine.com/",
+    "Website":"https://www.chezsoulsoutherncuisine.com/",
     "Yelp":"https://www.yelp.com/biz/chez-soul-southern-cuisine-fairfield",
     "IG":"https://www.instagram.com/chezsoul",
     "FB":"https://www.facebook.com/chezsoul/",
@@ -8643,7 +8674,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8657,7 +8688,7 @@ var geodata = {
     "Name":"Corner 103",
     "Address":"103 W Napa St, Sonoma, CA 95476",
     "Phone":"(707) 931-6141",
-    "Website":"www.corner103.com/",
+    "Website":"https://www.corner103.com/",
     "Yelp":"https://www.yelp.com/biz/corner-103-sonoma",
     "IG":"https://www.instagram.com/corner103",
     "FB":"https://www.facebook.com/Corner103/",
@@ -8676,7 +8707,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8690,7 +8721,7 @@ var geodata = {
     "Name":"Red Rose Catering",
     "Address":"600 Martin Ave, Rohnert Park, CA 94928",
     "Phone":"(707) 687-9014",
-    "Website":"www.theredrosecatering.com/",
+    "Website":"https://www.theredrosecatering.com/",
     "Yelp":"https://www.yelp.com/biz/red-rose-catering-no-title",
     "IG":"",
     "FB":"https://www.facebook.com/Redrosecater/",
@@ -8709,7 +8740,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8742,7 +8773,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8756,7 +8787,7 @@ var geodata = {
     "Name":"Cafe Frida Gallery",
     "Address":"300 South A St, Santa Rosa, CA 95401",
     "Phone":"(707) 308-4344",
-    "Website":"www.cafefridagallery.com/",
+    "Website":"https://www.cafefridagallery.com/",
     "Yelp":"https://www.yelp.com/biz/café-frida-gallery-santa-rosa",
     "IG":"https://www.instagram.com/cafefridagallery",
     "FB":"https://www.facebook.com/cafefridagallery/",
@@ -8775,7 +8806,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8789,7 +8820,7 @@ var geodata = {
     "Name":"My Abyssinia",
     "Address":"913 4th St, Santa Rosa, CA 95404",
     "Phone":"(707) 568-6455",
-    "Website":"www.my-abyssinia.com/",
+    "Website":"https://www.my-abyssinia.com/",
     "Yelp":"https://www.yelp.com/biz/abyssinia-restaurant-santa-rosa",
     "IG":"",
     "FB":"",
@@ -8808,7 +8839,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8841,7 +8872,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"Y",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   },
@@ -8855,7 +8886,7 @@ var geodata = {
     "Name":"Brown Estate",
     "Address":"3233 Sage Canyon Rd, St Helena, CA 94574",
     "Phone":"(707) 963-2435",
-    "Website":"www.brownestate.com/",
+    "Website":"https://www.brownestate.com/",
     "Yelp":"https://www.yelp.com/biz/brown-estate-vineyards-st-helena",
     "IG":"https://www.instagram.com/brownestate",
     "FB":"https://www.facebook.com/brownestate/",
@@ -8874,7 +8905,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":"Y"
     }
   },
@@ -8888,7 +8919,7 @@ var geodata = {
     "Name":"Buster's Southern BBQ",
     "Address":"1207 Foothill Blvd, Calistoga, CA 94515",
     "Phone":"(707) 942-5605",
-    "Website":"www.busterssouthernbbq.com/",
+    "Website":"https://www.busterssouthernbbq.com/",
     "Yelp":"https://www.yelp.com/biz/busters-southern-bbq-calistoga-3",
     "IG":"https://www.instagram.com/busterssouthernbbq",
     "FB":"https://www.facebook.com/busterssouthernbbq/",
@@ -8907,7 +8938,7 @@ var geodata = {
     "Takeout":"Y",
     "Delivery":"",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":"Y"
     }
   },
@@ -8921,7 +8952,7 @@ var geodata = {
     "Name":"Bodkin Wines",
     "Address":"1083 Vine St, Healdsburg, CA 95448",
     "Phone":"",
-    "Website":"www.bodkinwines.com/",
+    "Website":"https://www.bodkinwines.com/",
     "Yelp":"",
     "IG":"https://www.instagram.com/bodkinwines",
     "FB":"",
@@ -8940,7 +8971,7 @@ var geodata = {
     "Takeout":"",
     "Delivery":"Y",
     "Catering":"",
-    "Temporarily Closed":"",
+    "TemporarilyClosed":"",
     "OtherService":""
     }
   }

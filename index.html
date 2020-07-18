@@ -2,11 +2,16 @@
 <html>
 <head>
     <title>Black-Owned Bay Area Restaurants</title>
+    <!-- Link to Leaflet.js styling -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <!-- Link to my own styling -->
     <link rel="stylesheet" href="style/style.css">
+    <!-- Link to Leaflet.js javascript -->
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <!-- Link to GeoJSON file containing data -->
     <script src="data/BOBAR_location.geojson"></script>
     <style>
+        /* Set map to take up whole page */
         #map {position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
     </style>
 </head>
@@ -15,41 +20,70 @@
     <script>
 
         // Creating basemap
-        var map = L.map('map').setView([37.78261, -122.1368495], 9);
-        L.tileLayer('http://tile.stamen.com/terrain/{z}/{x}/{y}.jpg', { attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'}).addTo(map);
+
+        var map = L.map('map').setView([37.83, -122.1368495], 9);
+        // Set background tile design
+        L.tileLayer('http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', { 
+            // Source for tiles
+            attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+        }).addTo(map);
 
         // Creating popup
         function createPopupContent(feature) {
+            // Initiate content as empty string
             let popupContent = '';
+            // If website given, add as link in the name of the restaurant
             if (feature.properties.Website) {
                 popupContent += '<h3><a href="' + feature.properties.Website + '" target="_blank">' + feature.properties.Name + '</a></h3>';
+            // Otherwise, just add the name of the restaurant
             } else {
                 popupContent += '<h3>' + feature.properties.Name + '</h3>';
             }
+            // Add the address
             popupContent += "<b>Address: </b>" + feature.properties.Address;
+            // If phone number given, add it
             if (feature.properties.Phone) {
                 popupContent += "<br><b>Phone Number: </b>" + feature.properties.Phone;
             }
+            // Add cuisine
             popupContent += "<br><b>Cuisine: </b>" + feature.properties.Cuisine + "<br><b>COVID-19 Service: </b>" + feature.properties.Service;
+            // If Instagram or Facebook link given, add social media
             if (feature.properties.IG || feature.properties.FB) {
                 popupContent += "<br><b>Social Media: </b>";
+                // If Facebook link given, add
                 if (feature.properties.FB) {
                     popupContent += '<a href="' + feature.properties.FB + '" target="_blank">Facebook</a>';
                 }
+                // If both Facebook and Instagram links given, add a comma after Facebook
                 if (feature.properties.FB && feature.properties.IG) {
-                    popupContent += ","
+                    popupContent += ", "
                 }
+                // If Instagram link given, add
                 if (feature.properties.IG) {
-                    popupContent += ' <a href="' + feature.properties.IG + '" target="_blank">Instagram</a>';
+                    popupContent += '<a href="' + feature.properties.IG + '" target="_blank">Instagram</a>';
                 }
             }
+            // If Yelp link given, add
             if (feature.properties.Yelp) {
-                popupContent += '<br><b>Reviews: </b><a href="' + feature.properties.Yelp + '" target="_blank">Yelp</a>'
+                popupContent += '<br><b>Reviews: </b><a href="' + feature.properties.Yelp + '" target="_blank">Yelp</a>';
+            }
+            // If gift card available, add access method
+            if (feature.properties.GiftCard) {
+                popupContent += '<br><b>Gift Cards: </b>';
+                // If access is through phone, add message
+                if (feature.properties.GiftCard.includes("phone")) {
+                    popupContent += feature.properties.GiftCard;
+                // If access is through website, add through word 'Link'
+                } else {
+                    popupContent += '<a href="' + feature.properties.GiftCard + '" target="_blank">Link</a>';
+                }
             }
             return popupContent;
         }
 
         // Changing icon color
+
+        // Create general icon class, setting size properties
         var GeneralIcon = L.Icon.extend({
             options: { 
                 iconSize: [25, 41],
@@ -58,6 +92,7 @@
             }
         })
 
+        // Create icon of each color, with image linking to given URL
         var blackIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png'});
         var orangeIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png'});
         var redIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png'});
@@ -68,6 +103,7 @@
         var blueIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png'});
         var greyIcon = new GeneralIcon({iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-grey.png'});
 
+        // Return icon based on cuisine type
         function getIcon(feature) {
             if (feature.properties.Multiple) {
                 return blackIcon;
@@ -92,12 +128,14 @@
 
         // Creating LayerGroups
 
+        // Instantiate dictionaries with empty layer groups for the different types of layers
         var regions = {"East Bay": new L.LayerGroup(), "South Bay": new L.LayerGroup(), "San Francisco": new L.LayerGroup(), "North Bay": new L.LayerGroup(), "Peninsula": new L.LayerGroup()}
 
         var cuisines = {"African": new L.LayerGroup(), "Caribbean": new L.LayerGroup(), "American": new L.LayerGroup(), "Southern": new L.LayerGroup(), "Barbecue": new L.LayerGroup(), "Dessert": new L.LayerGroup(), "Beverages": new L.LayerGroup(), "Other": new L.LayerGroup()};
 
         var services = {"Takeout": new L.LayerGroup(), "Delivery": new L.LayerGroup(), "Catering": new L.LayerGroup(), "Temporarily Closed": new L.LayerGroup(), "Other": new L.LayerGroup()};
 
+        // Populate empty layer groups instantiated above with feature layers
         function createRegionGroups(feature, layer) {
             regions[feature.properties.Region].addLayer(layer);
         }
@@ -139,7 +177,7 @@
             if (feature.properties.Catering) {
                 services["Catering"].addLayer(layer);
             }
-            if (feature.properties.Temporarily_Closed) {
+            if (feature.properties.TemporarilyClosed) {
                 services["Temporarily Closed"].addLayer(layer);
             }
             if (feature.properties.OtherService) {
@@ -167,6 +205,7 @@
             onEachFeature: onEachFeature
         }).addTo(map);
 
+        // Create custom control mechanism
         //L.control.layers(null, regions, cuisines, services).addTo(map);
 
         // Creating legend
